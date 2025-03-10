@@ -67,7 +67,7 @@ body:
       - label: "Market Option 2"
 
 
-    - type: checkbox
+    - type: checkboxes
       id: license_ids
       attributes:
         label: "License ids"
