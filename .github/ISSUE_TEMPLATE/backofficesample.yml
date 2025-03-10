@@ -66,13 +66,3 @@ body:
         - label: "Market Option 1"
         - label: "Market Option 2"
 
-
-    - type: checkboxes
-      id: license_ids
-      attributes:
-        label: "License ids"
-        description: License ids
-        options:
-          - label: "License 1"
-          - label: "License 2"
-          - label: "License 3"
