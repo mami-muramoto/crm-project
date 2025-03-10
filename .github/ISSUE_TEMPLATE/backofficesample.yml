@@ -109,26 +109,4 @@ body:
         - "PST"
         - "EST"
 
-  - type: dropdown
-    id: start_date
-    attributes:
-      label: "Start Date"
-      options:
-        - "Date Option 1"
-        - "Date Option 2"
 
-  - type: dropdown
-    id: end_date
-    attributes:
-      label: "End Date"
-      options:
-        - "Date Option 1"
-        - "Date Option 2"
-
-  - type: dropdown
-    id: show_to_all_users
-    attributes:
-      label: "Show to all users"
-      options:
-        - "Yes"
-        - "No"
