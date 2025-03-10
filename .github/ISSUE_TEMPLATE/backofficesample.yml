@@ -56,12 +56,14 @@ body:
         - "Grade 1"
         - "Grade 2"
         - "Grade 3"
-
+        
   - type: checkboxes
-    id: terms
+    id: aya_market
     attributes:
-      label: Code of Conduct
-      description: This project has a Code of Conduct that all participants are expected to understand and follow.
+      label: "Aya market"
+      description: Market options
       options:
-        - label: I have read and agree to the GitHub Docs project's [Code of Conduct](https://github.com/github/docs/blob/main/CODE_OF_CONDUCT.md)
-          required: true
+      - label: "Market Option 1"
+      - label: "Market Option 2"
+
+  
