@@ -30,3 +30,105 @@ body:
       label: "Teacher content url"
       placeholder: "Enter URL here"
 
+  - type: input
+    id: teacher_banner_url
+    attributes:
+      label: "Teacher Banner URL"
+      placeholder: "Enter URL here"
+
+  - type: input
+    id: student_content_url
+    attributes:
+      label: "Student content url"
+      placeholder: "Enter URL here"
+
+  - type: input
+    id: student_banner_url
+    attributes:
+      label: "Student Banner URL"
+      placeholder: "Enter URL here"
+
+  - type: dropdown
+    id: aya_grades
+    attributes:
+      label: "Aya Grades"
+      options:
+        - "Grade 1"
+        - "Grade 2"
+        - "Grade 3"
+
+  - type: checkboxes
+    id: aya_market
+    attributes:
+      label: "Aya market"
+      options:
+        - "Market Option 1"
+        - "Market Option 2"
+
+  - type: checkboxes
+    id: license_ids
+    attributes:
+      label: "License ids"
+      options:
+        - "License 1"
+        - "License 2"
+        - "License 3"
+
+  - type: dropdown
+    id: subscription_status
+    attributes:
+      label: "Subscription status"
+      options:
+        - "Active"
+        - "Inactive"
+        - "Pending"
+
+  - type: dropdown
+    id: excluded_license
+    attributes:
+      label: "Excluded license"
+      options:
+        - "License A"
+        - "License B"
+
+  - type: dropdown
+    id: show_to_trial_users
+    attributes:
+      label: "Show to trial users"
+      options:
+        - "Yes"
+        - "No"
+
+  - type: dropdown
+    id: timezone
+    attributes:
+      label: "Timezone"
+      options:
+        - "UTC"
+        - "GMT"
+        - "PST"
+        - "EST"
+
+  - type: dropdown
+    id: start_date
+    attributes:
+      label: "Start Date"
+      options:
+        - "Date Option 1"
+        - "Date Option 2"
+
+  - type: dropdown
+    id: end_date
+    attributes:
+      label: "End Date"
+      options:
+        - "Date Option 1"
+        - "Date Option 2"
+
+  - type: dropdown
+    id: show_to_all_users
+    attributes:
+      label: "Show to all users"
+      options:
+        - "Yes"
+        - "No"
