@@ -1,5 +1,5 @@
 name: "Issue Form"
-description: "Fill out this form to create a new issue"
+description: "Fill out this form to create a new issue."
 title: "[ISSUE] "
 labels: []
 body:
@@ -8,9 +8,8 @@ body:
     attributes:
       label: "Name"
       placeholder: "Enter your name"
-      required: true
 
-  - type: checkbox
+  - type: dropdown
     id: campaign_type
     attributes:
       label: "Campaign type"
@@ -58,7 +57,7 @@ body:
         - "Grade 2"
         - "Grade 3"
 
-  - type: checkbox
+  - type: checkboxes
     id: aya_market
     attributes:
       label: "Aya market"
@@ -66,7 +65,7 @@ body:
         - "Market Option 1"
         - "Market Option 2"
 
-  - type: checkbox
+  - type: checkboxes
     id: license_ids
     attributes:
       label: "License ids"
@@ -92,10 +91,13 @@ body:
         - "License A"
         - "License B"
 
-  - type: checkbox
+  - type: dropdown
     id: show_to_trial_users
     attributes:
       label: "Show to trial users"
+      options:
+        - "Yes"
+        - "No"
 
   - type: dropdown
     id: timezone
@@ -123,7 +125,10 @@ body:
         - "Date Option 1"
         - "Date Option 2"
 
-  - type: checkbox
+  - type: dropdown
     id: show_to_all_users
     attributes:
       label: "Show to all users"
+      options:
+        - "Yes"
+        - "No"
