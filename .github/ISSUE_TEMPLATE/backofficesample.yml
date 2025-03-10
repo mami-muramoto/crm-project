@@ -1,28 +1,58 @@
-name: "Simple Issue Form"
-description: "Use this form to report an issue or provide feedback."
+name: "Issue Form"
+description: "Fill out this form to create a new issue."
 title: "[ISSUE] "
 labels: []
 body:
   - type: input
-    id: issue_title
+    id: name
     attributes:
-      label: "Issue Title"
-      placeholder: "Enter a brief title for the issue"
-
-  - type: checkboxes
-    id: issue_category
-    attributes:
-      label: "Select Issue Category"
-      options:
-        - "Bug"
-        - "Feature Request"
-        - "Improvement"
+      label: "Name"
+      placeholder: "Enter your name"
 
   - type: dropdown
-    id: priority_level
+    id: campaign_type
     attributes:
-      label: "Priority Level"
+      label: "Campaign type"
       options:
-        - "Low"
-        - "Medium"
-        - "High"
+        - "Option 1"
+        - "Option 2"
+        - "Option 3"
+
+  - type: input
+    id: show_to_aya_early_discountable_users
+    attributes:
+      label: "Show to aya early discountable users"
+      placeholder: "Enter details here"
+
+  - type: input
+    id: teacher_content_url
+    attributes:
+      label: "Teacher content url"
+      placeholder: "Enter URL here"
+
+  - type: input
+    id: teacher_banner_url
+    attributes:
+      label: "Teacher Banner URL"
+      placeholder: "Enter URL here"
+
+  - type: input
+    id: student_content_url
+    attributes:
+      label: "Student content url"
+      placeholder: "Enter URL here"
+
+  - type: input
+    id: student_banner_url
+    attributes:
+      label: "Student Banner URL"
+      placeholder: "Enter URL here"
+
+  - type: dropdown
+    id: aya_grades
+    attributes:
+      label: "Aya Grades"
+      options:
+        - "Grade 1"
+        - "Grade 2"
+        - "Grade 3"
