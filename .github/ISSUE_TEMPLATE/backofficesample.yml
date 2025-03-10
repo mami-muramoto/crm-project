@@ -71,6 +71,7 @@ body:
       id: license_ids
       attributes:
         label: "License ids"
+        description: License ids
         options:
         - label: "License 1"
         - label: "License 2"
