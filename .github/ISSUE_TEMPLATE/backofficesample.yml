@@ -63,8 +63,8 @@ body:
       label: "Aya market"
       description: Market options
       options:
-      - label: "Market Option 1"
-      - label: "Market Option 2"
+        - label: "Market Option 1"
+        - label: "Market Option 2"
 
 
     - type: checkboxes
@@ -73,6 +73,6 @@ body:
         label: "License ids"
         description: License ids
         options:
-        - label: "License 1"
-        - label: "License 2"
-        - label: "License 3"
+          - label: "License 1"
+          - label: "License 2"
+          - label: "License 3"
