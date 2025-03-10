@@ -7,10 +7,22 @@ body:
     attributes:
       value: "## 問題の概要"
   - type: textarea
-    id: issue-description
+    id: issue_description
     attributes:
       label: "問題の詳細"
       description: "問題について詳しく説明してください。"
       placeholder: "ここに説明を入力してください..."
-      validations:
-        required: true
+  - type: input
+    id: issue_steps
+    attributes:
+      label: "再現手順"
+      placeholder: "問題を再現する手順を入力してください..."
+      required: true
+  - type: dropdown
+    id: issue_priority
+    attributes:
+      label: "優先度"
+      options:
+        - "高"
+        - "中"
+        - "低"
