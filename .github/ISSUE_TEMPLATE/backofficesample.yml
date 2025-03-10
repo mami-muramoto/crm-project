@@ -1,93 +1,28 @@
-name: "Issue Form"
-description: "Fill out this form to create a new issue."
+name: "Simple Issue Form"
+description: "Use this form to report an issue or provide feedback."
 title: "[ISSUE] "
 labels: []
 body:
   - type: input
-    id: name
+    id: issue_title
     attributes:
-      label: "Name"
-      placeholder: "Enter your name"
-
-  - type: dropdown
-    id: campaign_type
-    attributes:
-      label: "Campaign type"
-      options:
-        - "Option 1"
-        - "Option 2"
-        - "Option 3"
-
-  - type: input
-    id: show_to_aya_early_discountable_users
-    attributes:
-      label: "Show to aya early discountable users"
-      placeholder: "Enter details here"
-
-  - type: input
-    id: teacher_content_url
-    attributes:
-      label: "Teacher content url"
-      placeholder: "Enter URL here"
-
-  - type: input
-    id: teacher_banner_url
-    attributes:
-      label: "Teacher Banner URL"
-      placeholder: "Enter URL here"
-
-  - type: input
-    id: student_content_url
-    attributes:
-      label: "Student content url"
-      placeholder: "Enter URL here"
-
-  - type: input
-    id: student_banner_url
-    attributes:
-      label: "Student Banner URL"
-      placeholder: "Enter URL here"
-
-  - type: dropdown
-    id: aya_grades
-    attributes:
-      label: "Aya Grades"
-      options:
-        - "Grade 1"
-        - "Grade 2"
-        - "Grade 3"
+      label: "Issue Title"
+      placeholder: "Enter a brief title for the issue"
 
   - type: checkboxes
-    id: aya_market
+    id: issue_category
     attributes:
-      label: "Aya market"
+      label: "Select Issue Category"
       options:
-        - "Market Option 1"
-        - "Market Option 2"
-
-  - type: checkboxes
-    id: license_ids
-    attributes:
-      label: "License ids"
-      options:
-        - "License 1"
-        - "License 2"
-        - "License 3"
+        - "Bug"
+        - "Feature Request"
+        - "Improvement"
 
   - type: dropdown
-    id: subscription_status
+    id: priority_level
     attributes:
-      label: "Subscription status"
+      label: "Priority Level"
       options:
-        - "Active"
-        - "Inactive"
-        - "Pending"
-
-  - type: dropdown
-    id: excluded_license
-    attributes:
-      label: "Excluded license"
-      options:
-        - "License A"
-        - "License B"
-
+        - "Low"
+        - "Medium"
+        - "High"
