@@ -14,9 +14,12 @@ body:
     attributes:
       label: "Campaign type"
       options:
-        - "Option 1"
-        - "Option 2"
-        - "Option 3"
+        - label: "Option 1"
+          value: "option_1"
+        - label: "Option 2"
+          value: "option_2"
+        - label: "Option 3"
+          value: "option_3"
 
   - type: input
     id: show_to_aya_early_discountable_users
@@ -53,82 +56,107 @@ body:
     attributes:
       label: "Aya Grades"
       options:
-        - "Grade 1"
-        - "Grade 2"
-        - "Grade 3"
+        - label: "Grade 1"
+          value: "grade_1"
+        - label: "Grade 2"
+          value: "grade_2"
+        - label: "Grade 3"
+          value: "grade_3"
 
   - type: checkboxes
     id: aya_market
     attributes:
       label: "Aya market"
       options:
-        - "Market Option 1"
-        - "Market Option 2"
+        - label: "Market Option 1"
+          value: "market_option_1"
+        - label: "Market Option 2"
+          value: "market_option_2"
 
   - type: checkboxes
     id: license_ids
     attributes:
       label: "License ids"
       options:
-        - "License 1"
-        - "License 2"
-        - "License 3"
+        - label: "License 1"
+          value: "license_1"
+        - label: "License 2"
+          value: "license_2"
+        - label: "License 3"
+          value: "license_3"
 
   - type: dropdown
     id: subscription_status
     attributes:
       label: "Subscription status"
       options:
-        - "Active"
-        - "Inactive"
-        - "Pending"
+        - label: "Active"
+          value: "active"
+        - label: "Inactive"
+          value: "inactive"
+        - label: "Pending"
+          value: "pending"
 
   - type: dropdown
     id: excluded_license
     attributes:
       label: "Excluded license"
       options:
-        - "License A"
-        - "License B"
+        - label: "License A"
+          value: "license_a"
+        - label: "License B"
+          value: "license_b"
 
   - type: dropdown
     id: show_to_trial_users
     attributes:
       label: "Show to trial users"
       options:
-        - "Yes"
-        - "No"
+        - label: "Yes"
+          value: "yes"
+        - label: "No"
+          value: "no"
 
   - type: dropdown
     id: timezone
     attributes:
       label: "Timezone"
       options:
-        - "UTC"
-        - "GMT"
-        - "PST"
-        - "EST"
+        - label: "UTC"
+          value: "utc"
+        - label: "GMT"
+          value: "gmt"
+        - label: "PST"
+          value: "pst"
+        - label: "EST"
+          value: "est"
 
   - type: dropdown
     id: start_date
     attributes:
       label: "Start Date"
       options:
-        - "Date Option 1"
-        - "Date Option 2"
+        - label: "Date Option 1"
+          value: "date_option_1"
+        - label: "Date Option 2"
+          value: "date_option_2"
 
   - type: dropdown
     id: end_date
     attributes:
       label: "End Date"
       options:
-        - "Date Option 1"
-        - "Date Option 2"
+        - label: "Date Option 1"
+          value: "date_option_1"
+        - label: "Date Option 2"
+          value: "date_option_2"
 
   - type: dropdown
     id: show_to_all_users
     attributes:
       label: "Show to all users"
       options:
-        - "Yes"
-        - "No"
+        - label: "Yes"
+          value: "yes"
+        - label: "No"
+          value: "no"
