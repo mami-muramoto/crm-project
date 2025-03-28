@@ -4,8 +4,7 @@ title: "[ISSUE] "
 labels: []
 
 
-body:
-
+body:  
   - type: input
     id: name
     attributes:
