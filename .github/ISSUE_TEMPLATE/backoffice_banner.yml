@@ -9,6 +9,13 @@ body:
       label: "Name"
       placeholder: "Enter your name"
 
+  - type: textarea
+    id: issue_body
+    attributes:
+      label: "Issue Body"
+      placeholder: "Enter the details of the issue here"
+      description: "Please provide a detailed description of the issue."
+
   - type: dropdown
     id: campaign_type
     attributes:
@@ -65,10 +72,3 @@ body:
       options:
         - label: "Market Option 1"
         - label: "Market Option 2"
-
-  - type: textarea
-    id: issue_body
-    attributes:
-      label: "Issue Body"
-      placeholder: "Enter the details of the issue here"
-      description: "Please provide a detailed description of the issue."
