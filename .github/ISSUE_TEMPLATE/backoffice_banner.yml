@@ -3,6 +3,7 @@ description: "Fill out this form to create a new issue."
 title: "[ISSUE] "
 labels: []
 body:
+
   - type: input
     id: name
     attributes:
