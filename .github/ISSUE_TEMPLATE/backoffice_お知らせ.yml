@@ -46,7 +46,7 @@ body:
     validations:
       required: true
 
-        - type: checkboxes
+  - type: checkboxes
     id: market
     attributes:
       label: 対象となるAyaのマーケット
