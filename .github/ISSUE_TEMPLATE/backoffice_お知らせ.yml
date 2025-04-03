@@ -83,29 +83,28 @@ body:
         required: true
 
 
-  - type: dropdown
+  - type: checkboxes
     id: plan
     attributes:
       label: 対象の契約プラン
       description: >
         対象の契約プランを選んでください。
       options:
-        - 無料会員
-        - ベーシック(basic)
-        - 合格特訓コース(online_coaching)
-        - 中学個別指導コース(yui)
-        - シン個別
-    validations:
-      required: true
+        - label: 無料会員
+        - label: ベーシック(basic)
+        - label: 合格特訓コース(online_coaching)
+        - label: 中学個別指導コース(yui)
+        - label: シン個別
+          required: true
 
-  - type: dropdown
+  - type: checkboxes
     id: list
     attributes:
       label: リスト抽出有無
       description: >
         リスト抽出の有無を選択してください。
       options:
-        - あり
-        - なし
+        labbel: あり
+        label: なし
     validations:
-      required: true
+      required: false
