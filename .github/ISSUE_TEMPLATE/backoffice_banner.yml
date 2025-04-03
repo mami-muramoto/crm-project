@@ -1,87 +1,36 @@
-name: "Issue Form"
-description: "Fill out this form to create a new issue."
-title: "[ISSUE]"
-labels: []
-
-# フィールドの定義
-type: dropdown
-id: campaign_type
-attributes:
-  label: "Campaign type"
-  options:
-    - "Option 1"
-    - "Option 2"
-    - "Option 3"
-
----
-
-type: input
-id: show_to_aya_early_discountable_users
-attributes:
-  label: "Show to aya early discountable users"
-  placeholder: "Enter details here"
-
----
-
-type: input
-id: teacher_content_url
-attributes:
-  label: "Teacher content url"
-  placeholder: "Enter URL here"
-
----
-
-type: input
-id: teacher_banner_url
-attributes:
-  label: "Teacher Banner URL"
-  placeholder: "Enter URL here"
-
----
-
-type: input
-id: student_content_url
-attributes:
-  label: "Student content url"
-  placeholder: "Enter URL here"
-
----
-
-type: input
-id: student_banner_url
-attributes:
-  label: "Student Banner URL"
-  placeholder: "Enter URL here"
-
----
-
-type: dropdown
-id: aya_grades
-attributes:
-  label: "Aya Grades"
-  options:
-    - "Grade 1"
-    - "Grade 2"
-    - "Grade 3"
-
----
-
-type: checkboxes
-id: aya_market
-attributes:
-  label: "Aya market"
-  description: "Market options"
-  options:
-    - label: "Market Option 1"
-    - label: "Market Option 2"
-
----
-
-# Bodyの項目が必要
-type: textarea
-id: body
-attributes:
-  label: "Body"
-  description: "Please describe the details of the issue."
-  placeholder: "Enter detailed description here."
-  required: true
+name: Bug Report
+description: Report a bug in the project
+title: "[BUG] "
+labels: bug
+body:
+  - type: markdown
+    attributes:
+      value: "## 問題の概要"
+  - type: textarea
+    id: issue-description
+    attributes:
+      label: "問題の詳細"
+      description: "問題について詳しく説明してください。"
+      placeholder: "ここに説明を入力してください..."
+      validations:
+        required: true
+  - type: input
+    id: steps-to-reproduce
+    attributes:
+      label: "再現手順"
+      description: "問題を再現する手順を入力してください。"
+      placeholder: "ステップ1, ステップ2 ..."
+      validations:
+        required: true
+  - type: input
+    id: expected-result
+    attributes:
+      label: "期待される結果"
+      description: "期待される結果を入力してください。"
+      placeholder: "期待する動作..."
+  - type: input
+    id: actual-result
+    attributes:
+      label: "実際の結果"
+      description: "実際に得られた結果を入力してください。"
+      placeholder: "実際の動作..."
