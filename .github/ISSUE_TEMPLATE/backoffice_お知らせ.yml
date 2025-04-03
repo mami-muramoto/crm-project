@@ -71,7 +71,6 @@ body:
       value: |
         以下の項目から少なくとも1つを選択してください。すべての項目をチェックすることも可能です。
 
-        
   - type: checkboxes
     id: grade
     attributes:
