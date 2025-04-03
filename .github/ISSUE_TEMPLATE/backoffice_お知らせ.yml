@@ -92,7 +92,7 @@ body:
       - label: シン個別
         required: true
 
-      - type: dropdown
+      - type: checkbox
     id: plan
     attributes:
       label: リスト抽出有無
@@ -100,6 +100,6 @@ body:
       options:
       - label: あり
       - label: なし
-        required: true
+
 
 
