@@ -25,7 +25,7 @@ body:
     attributes:
       label: 原稿
       description: 原稿を入力してください。
-      placeholder: 例: 原稿の内容
+      placeholder: 原稿の内容
       required: true
 
   - type: input
@@ -33,5 +33,5 @@ body:
     attributes:
       label: 送付希望日程
       description: 送付を希望する日程を入力してください。
-      placeholder: 例: 2023年10月15日
+      placeholder: 2023年10月15日
       required: true
