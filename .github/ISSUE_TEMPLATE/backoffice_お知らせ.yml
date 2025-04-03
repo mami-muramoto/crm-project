@@ -102,7 +102,6 @@ body:
       description: リスト抽出の有無を選択してください。
       options:
       - label : あり
-      - label : なし
         required: true
 
 
