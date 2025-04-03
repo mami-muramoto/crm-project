@@ -42,7 +42,7 @@ body:
     attributes:
       label: 送付希望日程
       description: 送付を希望する日程を入力してください。
-      placeholder: 例: 2023年10月15日
+      placeholder: 
     validations:
       required: true
 
