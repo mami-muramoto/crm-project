@@ -3,7 +3,7 @@ description: "Fill out this form to create a new issue."
 title: "[ISSUE]"
 labels: []
 
-
+fields:
   - type: dropdown
     id: campaign_type
     attributes:
@@ -56,7 +56,7 @@ labels: []
     id: aya_market
     attributes:
       label: "Aya market"
-      description: Market options
+      description: "Market options"
       options:
         - label: "Market Option 1"
         - label: "Market Option 2"
