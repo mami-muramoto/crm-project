@@ -100,7 +100,6 @@ body:
       options:
       - label: あり
       - label: なし
-      validations:
         required: true
 
 
