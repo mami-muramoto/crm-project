@@ -18,14 +18,14 @@ body:
     validations:
       required: false
 
-  - type: input
-    id: purpose
+  - type: textarea
+    id: manuscript
     attributes:
-      label: 目的
-      description: このissueの目的を入力してください。
+      label: 原稿
+      description: 原稿の内容を入力してください。
       placeholder:
     validations:
-      required: false
+      required: true
 
   - type: textarea
     attributes:
