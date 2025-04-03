@@ -101,8 +101,8 @@ body:
       label: リスト抽出有無
       description: リスト抽出の有無を選択してください。
       options:
-      - label: あり
-      - label: なし
+      -  あり
+      -  なし
         required: true
 
 
