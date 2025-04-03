@@ -28,11 +28,11 @@ body:
     validations:
       required: true
 
-        - type: textarea
+  - type: textarea
     id: manuscript
     attributes:
-      label: タイトル
-      description: 原稿のタイトルを入力してください。
+      label: 原稿
+      description: 原稿の内容を入力してください。
       placeholder:
     validations:
       required: true
