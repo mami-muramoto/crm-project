@@ -53,8 +53,7 @@ body:
       label: 対象マーケット
       options:
         - label: 全て
-        - label: B2C
-        - label: B2B2C
+          value;all
       required: true
 
 
