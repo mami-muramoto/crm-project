@@ -46,9 +46,14 @@ body:
     validations:
       required: true
 
-  - type: textarea
+   - type: checkboxes
+    id: market
     attributes:
-      label: Additional information
-      description: Add any other context or screenshots about the feature request here.
-    validations:
-      required: false
+      label: 対象となるAyaのマーケット
+    options:
+      - label: 全て
+        value: all
+      - label: B2C
+        value: b2c
+      - label: B2B2C
+        value: b2b2c
