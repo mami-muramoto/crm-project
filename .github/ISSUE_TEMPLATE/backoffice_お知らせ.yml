@@ -46,38 +46,20 @@ body:
     validations:
       required: true
 
-        - type: checkboxes
-    id: target_grade
+  - type: dropdown
+    id: plan
     attributes:
-      label: 対象学年
+      label: 対象の契約プラン
     options:
-      - label: 高卒生／予備校生（22歳以下）
-        value: high_school_grad
-      - label: 高校3年生
-        value: high_school_3
-      - label: 高校2年生
-        value: high_school_2
-      - label: 高校1年生
-        value: high_school_1
-      - label: 中学3年生
-        value: middle_school_3
-      - label: 中学2年生
-        value: middle_school_2
-      - label: 中学1年生
-        value: middle_school_1
-      - label: 小学6年生
-        value: elementary_6
-      - label: 小学5年生
-        value: elementary_5
-      - label: 小学4年生
-        value: elementary_4
-      - label: 小学3年生
-        value: elementary_3
-      - label: 小学2年生
-        value: elementary_2
-      - label: 小学1年生
-        value: elementary_1
-
-
-
+      - label: 無料会員
+        value: free_member
+      - label: ベーシック(basic)
+        value: basic
+      - label: 合格特訓コース(online_coaching)
+        value: online_coaching
+      - label: 中学個別指導コース(yui)
+        value: yui
+      - label: シン個別
+        value: shin
+      
 
