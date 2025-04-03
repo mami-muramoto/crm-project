@@ -19,7 +19,7 @@ body:
       required: false
 
 
-  - type: textarea
+  - type: input
     id: manuscript
     attributes:
       label: タイトル
