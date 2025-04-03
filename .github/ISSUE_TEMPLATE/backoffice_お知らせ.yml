@@ -1,5 +1,5 @@
 name: Backofficeお知らせ用 Issue Form
-description: こちらのフォームに必要事項を入力してください。
+description: BackOfficeのお知らせ配信したい場合はこちらのフォームを作成してください。。
 labels:
   - content
 body:
