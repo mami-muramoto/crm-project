@@ -82,29 +82,6 @@ body:
       - label: 小学1年生
         required: true
 
-  - type: checkboxes
-    id: plan
-    attributes:
-      label: 対象の契約プラン
-      description: 対象の契約プランを選んでください。
-      options:
-      - label: 無料会員
-      - label: ベーシック(basic)
-      - label: 合格特訓コース(online_coaching)
-      - label: 中学個別指導コース(yui)
-      - label: シン個別
-        required: true
-
-      - type: dropdown
-    id: list
-    attributes:
-      label: リスト抽出有無
-      description: リスト抽出の有無を選択してください。
-      options:
-      - label : あり
-      - label : なし
-        required: false
-
   - type: dropdown
     id: plan
     attributes:
@@ -117,5 +94,17 @@ body:
         - 合格特訓コース(online_coaching)
         - 中学個別指導コース(yui)
         - シン個別
+    validations:
+      required: true
+
+  - type: dropdown
+    id: list
+    attributes:
+      label: リスト抽出有無
+      description: >
+        リスト抽出の有無を選択してください。
+      options:
+        - あり
+        - なし
     validations:
       required: true
