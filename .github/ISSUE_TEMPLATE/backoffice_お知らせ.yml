@@ -53,7 +53,7 @@ body:
       label: 対象マーケット
       options:
         - label: 全て
-          value;all
+          value: all
       required: true
 
 
