@@ -55,7 +55,7 @@ body:
         - label: B2C
         - label: B2B
         - label: 全て
-      required: true
+        required: true
 
   - type: checkboxes
     id: grade
@@ -76,7 +76,7 @@ body:
       - label: 小学3年生
       - label: 小学2年生
       - label: 小学1年生
-      required: true
+        required: true
 
   - type: checkboxes
     id: plan
@@ -89,7 +89,7 @@ body:
       - label: 合格特訓コース(online_coaching)
       - label: 中学個別指導コース(yui)
       - label: シン個別
-      required: true
+        required: true
 
 
 
