@@ -58,7 +58,7 @@ body:
         required: true
 
 
-  - type: dropdown
+  - type: checkboxes
     id: grade
     attributes:
       label: 対象学年
@@ -79,7 +79,7 @@ body:
       - label: 小学1年生
         required: true
 
-  - type: dropdown
+  - type: checkboxes
     id: plan
     attributes:
       label: 対象の契約プラン
@@ -92,7 +92,7 @@ body:
       - label: シン個別
         required: true
 
-      - type: checkbox
+      - type: checkboxes
     id: plan
     attributes:
       label: リスト抽出有無
