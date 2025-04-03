@@ -96,13 +96,13 @@ body:
         required: true
 
       - type: dropdown
-    id: required_checkboxes
+    id: list
     attributes:
       label: リスト抽出有無
       description: リスト抽出の有無を選択してください。
       options:
-      - : あり
-      - : なし
+      - label : あり
+      - label : なし
         required: true
 
 
