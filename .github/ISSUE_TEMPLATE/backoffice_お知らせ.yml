@@ -1,0 +1,104 @@
+name: 'Internal Issue Form'
+description: 'Use this template to create an internal issue with required information.'
+labels: ['internal']
+
+fields:
+  - type: input
+    attributes:
+      label: 'Internal title'
+      description: 'Please provide a brief internal title for the issue.'
+      placeholder: 'Internal Issue Title'
+      required: true
+
+  - type: dropdown
+    attributes:
+      label: 'Default locale'
+      description: 'Select the default locale for this issue.'
+      options:
+        - 'en-US'
+        - 'ja-JP'
+        - 'es-ES'
+      required: true
+
+  - type: input
+    attributes:
+      label: 'Licenses'
+      description: 'List any relevant licenses or licensing information.'
+      placeholder: 'e.g., MIT License'
+      required: false
+
+  - type: dropdown
+    attributes:
+      label: 'Subscription status'
+      description: 'Select the subscription status.'
+      options:
+        - 'Active'
+        - 'Inactive'
+        - 'Pending'
+      required: true
+
+  - type: input
+    attributes:
+      label: 'Recipient ids'
+      description: 'Enter the recipient IDs, separated by commas.'
+      placeholder: 'ID1, ID2, ID3'
+      required: false
+
+  - type: input
+    attributes:
+      label: 'Apps'
+      description: 'List the related apps.'
+      placeholder: 'App1, App2'
+      required: false
+
+  - type: input
+    attributes:
+      label: 'Aya Grades'
+      description: 'Provide the Aya Grades if applicable.'
+      placeholder: 'e.g., A, B, C'
+      required: false
+
+  - type: input
+    attributes:
+      label: 'Aya market'
+      description: 'Provide relevant market information.'
+      placeholder: 'e.g., Japan Market'
+      required: false
+
+  - type: textarea
+    attributes:
+      label: 'Important'
+      description: 'Provide any important details or notes.'
+      placeholder: 'Important information or details here.'
+      required: false
+
+  - type: input
+    attributes:
+      label: 'Send at'
+      description: 'Enter the date and time to send the issue (optional).'
+      placeholder: 'YYYY-MM-DD HH:MM'
+      required: false
+
+  - type: dropdown
+    attributes:
+      label: 'Locale'
+      description: 'Select the locale for this issue.'
+      options:
+        - 'en-US'
+        - 'ja-JP'
+        - 'es-ES'
+      required: true
+
+  - type: input
+    attributes:
+      label: 'Title'
+      description: 'Provide the title for this issue.'
+      placeholder: 'Issue Title'
+      required: true
+
+  - type: textarea
+    attributes:
+      label: 'Body'
+      description: 'Provide a detailed description of the issue.'
+      placeholder: 'Describe the issue here...'
+      required: true
