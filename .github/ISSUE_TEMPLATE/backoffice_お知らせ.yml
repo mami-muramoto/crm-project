@@ -106,16 +106,16 @@ body:
         required: false
 
   - type: dropdown
-    id: method
+    id: plan
     attributes:
-      label: Installation Method
+      label: 対象の契約プラン
       description: >
-        Please provide how you tried to install pandas from a clean environment.
+        対象の契約プランを選んでください。
       options:
-        - pip install
-        - conda install
-        - apt-get install
-        - Built from source
-        - Other
+        - 無料会員
+        - ベーシック(basic)
+        - 合格特訓コース(online_coaching)
+        - 中学個別指導コース(yui)
+        - シン個別
     validations:
       required: true
