@@ -18,7 +18,7 @@ body:
     validations:
       required: false
 
-    - type: textarea
+   - type: textarea
     id: manuscript
     attributes:
       label: タイトル
