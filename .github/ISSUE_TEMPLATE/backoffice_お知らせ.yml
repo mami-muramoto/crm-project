@@ -47,11 +47,14 @@ body:
       required: true
 
   - type: checkboxes
-    id: checks
+    id: market
     attributes:
     options:
-      label: >
-      I have read the [installation guide](https://pandas.pydata.org/pandas-docs/stable/getting_started/install.html#installing-pandas).
+      label: 対象マーケット
+      options:
+        - label: 全て
+        - label: B2C
+        - label: B2B2C
       required: true
 
 
