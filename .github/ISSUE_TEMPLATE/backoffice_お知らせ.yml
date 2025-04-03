@@ -103,6 +103,6 @@ body:
       options:
       - label: あり
       - label: なし
-      required: true
+        required: true
 
 
