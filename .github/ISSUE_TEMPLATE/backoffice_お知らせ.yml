@@ -17,7 +17,7 @@ body:
     attributes:
       label: 目的
       description: このissueの目的を入力してください。
-      placeholder: 例: 新しいマーケティングプランの提案
+      placeholder: 新しいマーケティングプランの提案
       required: false
 
   - type: input
