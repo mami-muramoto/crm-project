@@ -47,11 +47,11 @@ body:
       required: true
 
   - type: checkboxes
-id: checks
-attributes:
-  options:
-    - label: >
-        I have read the [installation guide](https://pandas.pydata.org/pandas-docs/stable/getting_started/install.html#installing-pandas).
+    id: checks
+    attributes:
+    options:
+      label: >
+      I have read the [installation guide](https://pandas.pydata.org/pandas-docs/stable/getting_started/install.html#installing-pandas).
       required: true
 
 
