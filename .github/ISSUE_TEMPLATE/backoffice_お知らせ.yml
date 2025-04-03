@@ -55,7 +55,6 @@ body:
       - label: B2C
       - label: B2B
       - label: 全て
-      validations:
         required: true
 
 
@@ -102,6 +101,3 @@ body:
       - label: あり
       - label: なし
        required: true
-        
-
-
