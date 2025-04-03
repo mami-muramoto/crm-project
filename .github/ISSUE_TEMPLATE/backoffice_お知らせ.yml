@@ -1,12 +1,7 @@
-name: お知らせ用issue forms
-description: 本issueはBackOfficeのお知らせ配信用のissue formsテンプレートです。
-labels:
-  - content
-body:
-  - type: markdown
-    attributes:
-      value: |
-        **必須項目は必ず入力してください。帯・バナーのissue formsはこちらXXX
+name: Issue Request Form
+description: こちらのフォームに必要事項を入力してください。
+
+title: "[Issue Request]"
 
 body:
   - type: input
@@ -14,13 +9,12 @@ body:
     attributes:
       label: 関係者
       description: 関係者の名前や役職などを入力してください。
-      placeholder: 例：山田太郎
-      required: true
-
+      placeholder: 例: 山田太郎
+      required: false
 
   - type: input
     id: purpose
-    attributes: 
+    attributes:
       label: 目的
       description: このissueの目的を入力してください。
       placeholder: 例: 新しいマーケティングプランの提案
@@ -41,77 +35,3 @@ body:
       description: 送付を希望する日程を入力してください。
       placeholder: 例: 2023年10月15日
       required: true
-
-  - type: checkbox
-    id: market
-    attributes:
-      label: 対象となるAyaのマーケット
-      required: false
-    options:
-      - label: 全て
-        value: all
-      - label: B2C
-        value: b2c
-      - label: B2B2C
-        value: b2b2c
-
-  - type: checkbox
-    id: target_grade
-    attributes:
-      label: 対象学年
-      required: true
-    options:
-      - label: 高卒生／予備校生（22歳以下）
-        value: high_school_grad
-      - label: 高校3年生
-        value: high_school_3
-      - label: 高校2年生
-        value: high_school_2
-      - label: 高校1年生
-        value: high_school_1
-      - label: 中学3年生
-        value: middle_school_3
-      - label: 中学2年生
-        value: middle_school_2
-      - label: 中学1年生
-        value: middle_school_1
-      - label: 小学6年生
-        value: elementary_6
-      - label: 小学5年生
-        value: elementary_5
-      - label: 小学4年生
-        value: elementary_4
-      - label: 小学3年生
-        value: elementary_3
-      - label: 小学2年生
-        value: elementary_2
-      - label: 小学1年生
-        value: elementary_1
-
-  - type: dropdown
-    id: plan
-    attributes:
-      label: 対象の契約プラン
-      required: true
-    options:
-      - label: 無料会員
-        value: free_member
-      - label: ベーシック(basic)
-        value: basic
-      - label: 合格特訓コース(online_coaching)
-        value: online_coaching
-      - label: 中学個別指導コース(yui)
-        value: yui
-      - label: シン個別
-        value: shin
-
-  - type: checkbox
-    id: list_extraction
-    attributes:
-      label: リスト抽出
-      required: false
-    options:
-      - label: あり
-        value: yes
-      - label: なし
-        value: no
