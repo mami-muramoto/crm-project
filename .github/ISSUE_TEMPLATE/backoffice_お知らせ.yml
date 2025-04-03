@@ -29,7 +29,7 @@ body:
       required: true
 
   - type: textarea
-    id: manuscript
+    id: title
     attributes:
       label: 原稿
       description: 原稿の内容を入力してください。
