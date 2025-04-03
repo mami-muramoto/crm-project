@@ -94,12 +94,10 @@ body:
   - type: checkboxes
     id: list_extraction
     attributes:
-      label: リスト抽出
+      label: リスト抽出有無
     options:
       - label: あり
-        value: yes
       - label: なし
-        value: no
         required: true
 
 
