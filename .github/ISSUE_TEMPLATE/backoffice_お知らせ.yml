@@ -36,6 +36,7 @@ body:
     id: market
     attributes:
       label: 対象となるAyaのマーケット
+      required: false
     options:
       - label: 全て
         value: all
@@ -48,6 +49,7 @@ body:
     id: target_grade
     attributes:
       label: 対象学年
+      required: true
     options:
       - label: 高卒生／予備校生（22歳以下）
         value: high_school_grad
@@ -80,24 +82,8 @@ body:
     id: plan
     attributes:
       label: 対象の契約プラン
+      required: true
     options:
       - label: 無料会員
         value: free_member
-      - label: ベーシック(basic)
-        value: basic
-      - label: 合格特訓コース(online_coaching)
-        value: online_coaching
-      - label: 中学個別指導コース(yui)
-        value: yui
-      - label: シン個別
-        value: shin
-
-  - type: checkbox
-    id: list_extraction
-    attributes:
-      label: リスト抽出
-    options:
-      - label: あり
-        value: yes
-      - label: なし
-        value: no
+      - label
