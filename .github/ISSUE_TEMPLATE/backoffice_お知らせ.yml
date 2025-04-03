@@ -48,12 +48,6 @@ body:
       placeholder: 
     validations:
       required: true
-
-
-  - type: markdown
-    attributes:
-      value: |
-        以下の項目から少なくとも1つを選択してください。すべての項目をチェックすることも可能です。
         
   - type: checkboxes
     id: market
@@ -65,11 +59,6 @@ body:
       - label: B2B
       - label: 全て
         required: false
-
-  - type: markdown
-    attributes:
-      value: |
-        以下の項目から少なくとも1つを選択してください。すべての項目をチェックすることも可能です。
 
   - type: checkboxes
     id: grade
@@ -91,11 +80,6 @@ body:
       - label: 小学2年生
       - label: 小学1年生
         required: false
-
-    - type: markdown
-      attributes:
-      value: |
-        以下の項目から少なくとも1つを選択してください。すべての項目をチェックすることも可能です。
 
 
   - type: checkboxes
