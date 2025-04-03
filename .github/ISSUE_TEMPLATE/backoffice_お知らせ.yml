@@ -6,11 +6,9 @@ body:
   - type: markdown
     attributes:
       value: |
-        **HUBBERS!!** This is the github/docs open source repo. You may want to open an issue in the internal-only github/docs-content repo instead.
-
-        * For questions, ask in [Discussions](https://github.com/github/docs/discussions).
-        * Before you file an issue read the [Contributing guide](https://github.com/github/docs/blob/main/CONTRIBUTING.md).
-        * Check to make sure someone hasn't already opened a similar [issue](https://github.com/github/docs/issues).
+        **HUBBERS!!** このフォームに必要事項を入力してください。 
+        * 送付希望日程や原稿の内容を明記してください。
+        * 関係者や目的に関する情報も提供してください。
 
   - type: checkboxes
     id: terms
