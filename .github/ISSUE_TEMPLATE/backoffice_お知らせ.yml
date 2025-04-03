@@ -90,7 +90,7 @@ body:
       - label: 合格特訓コース(online_coaching)
       - label: 中学個別指導コース(yui)
       - label: シン個別
- validations:
+      validations:
         required: true
 
       - type: checkbox
