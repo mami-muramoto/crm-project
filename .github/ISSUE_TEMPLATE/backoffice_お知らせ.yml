@@ -78,7 +78,7 @@ body:
       - label: 小学1年生
         required: true
 
-  - type: checkbox
+  - type: checkboxes
     id: plan
     attributes:
       label: 対象の契約プラン
