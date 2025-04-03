@@ -105,4 +105,17 @@ body:
       - label : なし
         required: false
 
-
+  - type: dropdown
+    id: method
+    attributes:
+      label: Installation Method
+      description: >
+        Please provide how you tried to install pandas from a clean environment.
+      options:
+        - pip install
+        - conda install
+        - apt-get install
+        - Built from source
+        - Other
+    validations:
+      required: true
