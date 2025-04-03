@@ -101,4 +101,10 @@ body:
       - label: なし
         required: true
 
+  - type: file
+    id: uploaded_file
+    attributes:
+      label: ファイルアップロード
+      description: 必要なファイルをアップロードしてください。
+
 
