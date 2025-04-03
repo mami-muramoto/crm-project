@@ -96,9 +96,9 @@ body:
     attributes:
       label: リスト抽出有無
       description: リスト抽出の有無を選択してください。
-      required: true
       options:
       - label: あり
       - label: なし
+        required: true
 
 
