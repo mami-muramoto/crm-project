@@ -100,5 +100,6 @@ body:
         value: yes
       - label: なし
         value: no
+        required: true
 
 
