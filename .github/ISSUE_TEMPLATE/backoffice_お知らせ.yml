@@ -55,7 +55,7 @@ body:
       - label: B2C
       - label: B2B
       - label: 全て
-      required: true
+        required: true
 
 
   - type: checkboxes
