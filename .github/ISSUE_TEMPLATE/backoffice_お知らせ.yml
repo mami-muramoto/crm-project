@@ -47,7 +47,7 @@ body:
       required: true
 
   - type: checkboxes
-    id: terms
+    id: market
     attributes:
       label: 対象マーケット
       description: 対象マーケットを選んでください。
@@ -55,6 +55,27 @@ body:
         - label: B2C
         - label: B2B
         - label: 全て
+          required: true
+
+  - type: checkboxes
+    id: grade
+    attributes:
+      label: 対象学年
+      description: 対象学年を選んでください。
+      options:
+      - label: 高卒生／予備校生（22歳以下）
+      - label: 高校3年生
+      - label: 高校2年生
+      - label: 高校1年生
+      - label: 中学3年生
+      - label: 中学2年生
+      - label: 中学1年生
+      - label: 小学6年生
+      - label: 小学5年生
+      - label: 小学4年生
+      - label: 小学3年生
+      - label: 小学2年生
+      - label: 小学1年生
           required: true
 
 
