@@ -28,6 +28,15 @@ body:
     validations:
       required: true
 
+        - type: textarea
+    id: manuscript
+    attributes:
+      label: タイトル
+      description: 原稿のタイトルを入力してください。
+      placeholder:
+    validations:
+      required: true
+
   - type: textarea
     attributes:
       label: What part(s) of the article would you like to see updated?
