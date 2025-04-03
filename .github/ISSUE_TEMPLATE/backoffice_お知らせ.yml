@@ -46,16 +46,13 @@ body:
     validations:
       required: true
 
-        - type: checkboxes
+  - type: checkboxes
     id: market
     attributes:
       label: 対象となるAyaのマーケット
     options:
-      - label: 全て
-        value: all
-      - label: B2C
-        value: b2c
-      - label: B2B2C
-        value: b2b2c
+      label: 全て
+
+    
 
 
