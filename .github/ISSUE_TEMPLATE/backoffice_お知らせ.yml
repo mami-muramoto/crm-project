@@ -46,20 +46,14 @@ body:
     validations:
       required: true
 
-  - type: dropdown
-    id: plan
-    attributes:
-      label: 対象の契約プラン
-    options:
-      - label: 無料会員
-        value: free_member
-      - label: ベーシック(basic)
-        value: basic
-      - label: 合格特訓コース(online_coaching)
-        value: online_coaching
-      - label: 中学個別指導コース(yui)
-        value: yui
-      - label: シン個別
-        value: shin
+  - type: checkboxes
+id: checks
+attributes:
+  options:
+    - label: >
+        I have read the [installation guide](https://pandas.pydata.org/pandas-docs/stable/getting_started/install.html#installing-pandas).
+      required: true
+
+
       
 
