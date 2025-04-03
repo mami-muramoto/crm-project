@@ -51,11 +51,11 @@ body:
     attributes:
       label: 対象マーケット
       description: 対象マーケットを選んでください。
-      required: true
       options:
       - label: B2C
       - label: B2B
       - label: 全て
+      required: true
 
 
   - type: checkboxes
