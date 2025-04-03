@@ -53,7 +53,7 @@ body:
     id: market
     attributes:
       label: 対象マーケット
-      description: 対象マーケットを選んでください。
+      description: 対象マーケットを選んでください。必ず１つ以上選択してください。
       options:
       - label: B2C
       - label: B2B
@@ -64,7 +64,7 @@ body:
     id: grade
     attributes:
       label: 対象学年
-      description: 対象学年を選んでください。
+      description: 対象学年を選んでください。必ず１つ以上選択してください。
       options:
       - label: 高卒生／予備校生（22歳以下）
       - label: 高校3年生
@@ -87,7 +87,7 @@ body:
     attributes:
       label: 対象の契約プラン
       description: >
-        対象の契約プランを選んでください。
+        対象の契約プランを選んでください。必ず１つ以上選択してください。
       options:
       - label: 無料会員
       - label: ベーシック(basic)
