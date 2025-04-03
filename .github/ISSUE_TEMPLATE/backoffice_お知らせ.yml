@@ -94,13 +94,14 @@ body:
 
   - type: checkboxes
     id: list
-    required: true
     attributes:
       label: リスト抽出有無
       description: リスト抽出の有無を選択してください。
       options:
       - label: あり
       - label: なし
+      
+       required: true
         
 
 
