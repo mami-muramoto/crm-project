@@ -53,6 +53,7 @@ body:
       description: 対象マーケットを選んでください。
       options:
         - label: 全て
+        - label: B2B
           required: true
 
 
