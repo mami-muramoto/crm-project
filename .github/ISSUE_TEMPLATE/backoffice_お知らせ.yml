@@ -46,16 +46,38 @@ body:
     validations:
       required: true
 
-  - type: checkboxes
-    id: market
+        - type: checkboxes
+    id: target_grade
     attributes:
-      label: 対象となるAyaのマーケット
+      label: 対象学年
     options:
-    - label: 全て
-      value: all
-    - label: B2C
-      value: b2c
-    - label: B2B2C
-      value: b2b2c
+      - label: 高卒生／予備校生（22歳以下）
+        value: high_school_grad
+      - label: 高校3年生
+        value: high_school_3
+      - label: 高校2年生
+        value: high_school_2
+      - label: 高校1年生
+        value: high_school_1
+      - label: 中学3年生
+        value: middle_school_3
+      - label: 中学2年生
+        value: middle_school_2
+      - label: 中学1年生
+        value: middle_school_1
+      - label: 小学6年生
+        value: elementary_6
+      - label: 小学5年生
+        value: elementary_5
+      - label: 小学4年生
+        value: elementary_4
+      - label: 小学3年生
+        value: elementary_3
+      - label: 小学2年生
+        value: elementary_2
+      - label: 小学1年生
+        value: elementary_1
+
+
 
 
