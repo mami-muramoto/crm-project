@@ -101,6 +101,7 @@ body:
       options:
       - label: あり
       - label: なし
+      required: false
 
 
 
