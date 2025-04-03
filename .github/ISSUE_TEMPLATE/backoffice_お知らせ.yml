@@ -101,7 +101,7 @@ body:
       - label: なし
         required: true
 
-  - type: file
+  - type: fileupload
     id: uploaded_file
     attributes:
       label: ファイルアップロード
