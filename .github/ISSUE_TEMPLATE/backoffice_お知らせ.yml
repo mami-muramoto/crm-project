@@ -9,28 +9,28 @@ body:
     attributes:
       label: 関係者
       description: 関係者の名前や役職などを入力してください。
-      placeholder: 例: 山田太郎
+      placeholder: 
 
   - type: input
     id: purpose
     attributes:
       label: 目的
       description: このissueの目的を入力してください。
-      placeholder: 例: 新しいマーケティングプランの提案
+      placeholder: 
 
   - type: input
     id: manuscript
     attributes:
       label: 原稿
       description: 原稿を入力してください。
-      placeholder: 例: 原稿の内容
+      placeholder: 
 
   - type: input
     id: desired_date
     attributes:
       label: 送付希望日程
       description: 送付を希望する日程を入力してください。
-      placeholder: 例: 2023年10月15日
+      placeholder: 
 
   - type: checkbox
     id: market
