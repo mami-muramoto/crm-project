@@ -2,7 +2,7 @@ name: 'Internal Issue Form'
 description: 'Use this template to create an internal issue with required information.'
 labels: ['internal']
 
-fields:
+
   - type: input
     attributes:
       label: 'Internal title'
