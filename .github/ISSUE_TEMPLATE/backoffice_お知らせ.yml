@@ -104,7 +104,7 @@ body:
       description: >
         リスト抽出の有無を選択してください。
       options:
-        labbel: あり
-        label: なし
+      - label: あり
+      - label: なし
     validations:
       required: false
