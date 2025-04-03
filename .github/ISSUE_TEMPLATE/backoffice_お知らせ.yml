@@ -49,6 +49,12 @@ body:
     validations:
       required: true
 
+
+  - type: markdown
+    attributes:
+      value: |
+        以下の項目から少なくとも1つを選択してください。すべての項目をチェックすることも可能です。
+        
   - type: checkboxes
     id: market
     attributes:
@@ -58,9 +64,14 @@ body:
       - label: B2C
       - label: B2B
       - label: 全て
-        required: true
+        required: false
 
+  - type: markdown
+    attributes:
+      value: |
+        以下の項目から少なくとも1つを選択してください。すべての項目をチェックすることも可能です。
 
+        
   - type: checkboxes
     id: grade
     attributes:
@@ -80,7 +91,12 @@ body:
       - label: 小学3年生
       - label: 小学2年生
       - label: 小学1年生
-        required: true
+        required: false
+
+    - type: markdown
+      attributes:
+      value: |
+        以下の項目から少なくとも1つを選択してください。すべての項目をチェックすることも可能です。
 
 
   - type: checkboxes
@@ -95,7 +111,7 @@ body:
       - label: 合格特訓コース(online_coaching)
       - label: 中学個別指導コース(yui)
       - label: シン個別
-        required: true
+        required: false
 
   - type: checkboxes
     id: list
