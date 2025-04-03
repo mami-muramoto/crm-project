@@ -78,4 +78,15 @@ body:
       - label: 小学1年生
         required: true
 
+  - type: dropdown
+    id: plan
+    attributes:
+      label: 対象の契約プラン
+    options:
+      - label: 無料会員
+      - label: ベーシック(basic)
+      - label: 合格特訓コース(online_coaching)
+      - label: 中学個別指導コース(yui)
+      - label: シン個別
+
 
