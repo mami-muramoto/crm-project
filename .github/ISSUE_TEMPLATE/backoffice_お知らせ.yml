@@ -91,13 +91,5 @@ body:
       - label: シン個別
       required: true
 
-  - type: checkboxes
-    id: list_extraction
-    attributes:
-      label: リスト抽出有無
-    options:
-      - label: あり
-      - label: なし
-      required: true
 
 
