@@ -3,21 +3,6 @@ description: "Fill out this form to create a new issue."
 title: "[ISSUE] "
 labels: []
 
-
-body:  
-  - type: input
-    id: name
-    attributes:
-      label: "件名"
-      placeholder: "Enter your name"
-
-  - type: textarea
-    id: issue_body
-    attributes:
-      label: "本文"
-      placeholder: "Enter the details of the issue here"
-      description: "Please provide a detailed description of the issue."
-
   - type: dropdown
     id: campaign_type
     attributes:
