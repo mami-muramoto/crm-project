@@ -79,7 +79,7 @@ body:
       - label: 小学1年生
         required: true
 
-  - type: checkboxes
+  - type: dropdown
     id: plan
     attributes:
       label: 対象の契約プラン
