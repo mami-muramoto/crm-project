@@ -1,23 +1,22 @@
 name: Backofficeお知らせ用 Issue Form
-description: BackOfficeのお知らせ配信したい場合はこちらのフォームを作成してください。。
+description: お知らせを配信したい場合はこちらのフォームを作成してください。
 labels:
   - content
 body:
   - type: markdown
     attributes:
       value: |
-        このフォームに必要事項を入力してください。 
         * 送付希望日程や原稿の内容を明記してください。
         * 関係者や目的に関する情報も提供してください。
 
-  - type: checkboxes
-    id: terms
+  - type: input
+    id: stakeholders
     attributes:
-      label: Code of Conduct
-      description: This project has a Code of Conduct that all participants are expected to understand and follow.
-      options:
-        - label: I have read and agree to the GitHub Docs project's [Code of Conduct](https://github.com/github/docs/blob/main/CODE_OF_CONDUCT.md)
-          required: true
+      label: 関係者
+      description: 関係者の名前や役職などを入力してください。
+      placeholder: 例: 山田太郎
+    validations:
+      required: false
 
   - type: textarea
     attributes:
