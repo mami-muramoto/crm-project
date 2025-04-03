@@ -18,12 +18,14 @@ body:
     validations:
       required: false
 
-  - type: textarea
+  - type: input
+    id: purpose
     attributes:
-      label: What article on docs.github.com is affected?
-      description: Please link to the article you'd like to see updated.
+      label: 目的
+      description: このissueの目的を入力してください。
+      placeholder:
     validations:
-      required: true
+      required: false
 
   - type: textarea
     attributes:
