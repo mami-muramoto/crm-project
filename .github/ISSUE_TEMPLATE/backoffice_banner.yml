@@ -3,60 +3,85 @@ description: "Fill out this form to create a new issue."
 title: "[ISSUE]"
 labels: []
 
-fields:
-  - type: dropdown
-    id: campaign_type
-    attributes:
-      label: "Campaign type"
-      options:
-        - "Option 1"
-        - "Option 2"
-        - "Option 3"
+# フィールドの定義
+type: dropdown
+id: campaign_type
+attributes:
+  label: "Campaign type"
+  options:
+    - "Option 1"
+    - "Option 2"
+    - "Option 3"
 
-  - type: input
-    id: show_to_aya_early_discountable_users
-    attributes:
-      label: "Show to aya early discountable users"
-      placeholder: "Enter details here"
+---
 
-  - type: input
-    id: teacher_content_url
-    attributes:
-      label: "Teacher content url"
-      placeholder: "Enter URL here"
+type: input
+id: show_to_aya_early_discountable_users
+attributes:
+  label: "Show to aya early discountable users"
+  placeholder: "Enter details here"
 
-  - type: input
-    id: teacher_banner_url
-    attributes:
-      label: "Teacher Banner URL"
-      placeholder: "Enter URL here"
+---
 
-  - type: input
-    id: student_content_url
-    attributes:
-      label: "Student content url"
-      placeholder: "Enter URL here"
+type: input
+id: teacher_content_url
+attributes:
+  label: "Teacher content url"
+  placeholder: "Enter URL here"
 
-  - type: input
-    id: student_banner_url
-    attributes:
-      label: "Student Banner URL"
-      placeholder: "Enter URL here"
+---
 
-  - type: dropdown
-    id: aya_grades
-    attributes:
-      label: "Aya Grades"
-      options:
-        - "Grade 1"
-        - "Grade 2"
-        - "Grade 3"
-        
-  - type: checkboxes
-    id: aya_market
-    attributes:
-      label: "Aya market"
-      description: "Market options"
-      options:
-        - label: "Market Option 1"
-        - label: "Market Option 2"
+type: input
+id: teacher_banner_url
+attributes:
+  label: "Teacher Banner URL"
+  placeholder: "Enter URL here"
+
+---
+
+type: input
+id: student_content_url
+attributes:
+  label: "Student content url"
+  placeholder: "Enter URL here"
+
+---
+
+type: input
+id: student_banner_url
+attributes:
+  label: "Student Banner URL"
+  placeholder: "Enter URL here"
+
+---
+
+type: dropdown
+id: aya_grades
+attributes:
+  label: "Aya Grades"
+  options:
+    - "Grade 1"
+    - "Grade 2"
+    - "Grade 3"
+
+---
+
+type: checkboxes
+id: aya_market
+attributes:
+  label: "Aya market"
+  description: "Market options"
+  options:
+    - label: "Market Option 1"
+    - label: "Market Option 2"
+
+---
+
+# Bodyの項目が必要
+type: textarea
+id: body
+attributes:
+  label: "Body"
+  description: "Please describe the details of the issue."
+  placeholder: "Enter detailed description here."
+  required: true
