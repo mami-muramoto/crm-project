@@ -44,7 +44,7 @@ body:
     id: desired_date
     attributes:
       label: 送付希望日時
-      description: 送付を希望する日程を入力してください。（※半角数字のみ 例：20250519）
+      description: 送付を希望する日程を入力してください。（※半角数字のみ 例：2025/05/19 00:00）
       placeholder: 
     validations:
       required: true
