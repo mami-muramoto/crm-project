@@ -25,7 +25,7 @@ body:
   - type: input
     id: manuscript
     attributes:
-      label: タイトル
+      label: Title
       description: 原稿のタイトルを入力してください。
       placeholder:
     validations:
@@ -34,8 +34,8 @@ body:
   - type: textarea
     id: title
     attributes:
-      label: 原稿
-      description: 原稿の内容を入力してください。
+      label: Body
+      description: 本文を入力してください。
       placeholder:
     validations:
       required: true
@@ -43,8 +43,8 @@ body:
   - type: input
     id: desired_date
     attributes:
-      label: 送付希望日程
-      description: 送付を希望する日程を入力してください。
+      label: 送付希望日時
+      description: 送付を希望する日程を入力してください。（※半角数字のみ 例：20250519）
       placeholder: 
     validations:
       required: true
@@ -52,7 +52,7 @@ body:
   - type: checkboxes
     id: market
     attributes:
-      label: 対象マーケット
+      label: Licenses
       description: 対象マーケットを選んでください。必ず１つ以上選択してください。
       options:
       - label: B2C
@@ -63,7 +63,7 @@ body:
   - type: checkboxes
     id: grade
     attributes:
-      label: 対象学年
+      label: Aya Grades
       description: 対象学年を選んでください。必ず１つ以上選択してください。
       options:
       - label: 高卒生／予備校生（22歳以下）
@@ -85,7 +85,7 @@ body:
   - type: checkboxes
     id: plan
     attributes:
-      label: 対象の契約プラン
+      label: Subscription status
       description: >
         対象の契約プランを選んでください。必ず１つ以上選択してください。
       options:
