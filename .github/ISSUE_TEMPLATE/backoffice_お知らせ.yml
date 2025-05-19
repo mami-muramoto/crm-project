@@ -99,12 +99,3 @@ body:
       - label: シン個別
         required: true
 
-  - type: checkboxes
-    id: market
-    attributes:
-      label: Subscription status
-      description: 必ず１つ以上選択してください。
-      options:
-      - label: paid
-      - label: unpaid
-      - label: 全て
