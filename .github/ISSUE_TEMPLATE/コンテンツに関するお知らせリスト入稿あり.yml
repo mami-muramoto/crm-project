@@ -1,7 +1,5 @@
 name: Backofficeコンテンツに関するお知らせ用 Issue Form（リスト入稿あり）
 description: このissueは、教材に関するサイト内お知らせの配信依頼を行うissueです。
-CRM案件レビュー会に持ち込みせず配信する場合は、必ず起票前チェックが済んだ状態でissueを作成してください。
-※販促目的のお知らせは、CRMレビュー会への持ち込みが必要です。
 labels:
   - issue forms FMT
 body:
