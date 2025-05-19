@@ -1,5 +1,5 @@
-name: Backofficeお知らせ用 Issue Form（リスト入稿なし）
-description: お知らせを配信したい場合はこちらのフォームを作成してください。
+name: Backofficeバナー用 Issue Form（リスト入稿なし）
+description: バナーを配信したい場合はこちらのフォームを作成してください。
 labels:
   - issue forms FMT
 body:
