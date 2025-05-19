@@ -96,9 +96,9 @@ body:
       - label: シン個別
 
   - type: input
-    id: banne_URL
+    id: ayaheader_URL
     attributes:
-      label: バナーURL
+      label: 帯URL
       description: 
       placeholder:
     validations:
