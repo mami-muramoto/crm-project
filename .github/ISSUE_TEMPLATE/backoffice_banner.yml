@@ -111,20 +111,4 @@ body:
         - label: シン個別
           value: shin
 
-  - type: input
-    id: image_folder
-    attributes:
-      label: 画像フォルダ
-      description: Googleドライブ内フォルダのURLなど
-      placeholder: 
-    validations:
-      required: false
 
-  - type: input
-    id: transition_url
-    attributes:
-      label: 遷移先URL
-      description: バナーURL
-      placeholder: 
-    validations:
-      required: false
