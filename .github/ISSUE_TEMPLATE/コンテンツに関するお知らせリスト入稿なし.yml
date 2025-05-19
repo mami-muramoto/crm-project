@@ -1,6 +1,6 @@
 
 name: Backofficeコンテンツに関するお知らせ用 Issue Form（リスト入稿なし）
-description: コンテンツに関するお知らせを配信したい場合はこちらのフォームを作成してください。
+description: このissueは、教材に関するサイト内お知らせの配信依頼を行うissueです。
 labels:
   - issue forms FMT
 body:
