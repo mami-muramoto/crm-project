@@ -99,7 +99,7 @@ body:
       - label: シン個別
         required: true
 
-          - type: input
+  - type: input
     id: manuscript
     attributes:
       label: 画像フォルダ
