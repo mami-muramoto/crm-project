@@ -58,4 +58,12 @@ body:
     validations:
       required: true
 
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: 起票前チェック
+      description: 領域内でレビューを受けて、掲載が必要と判断した案件ですか？
+      options:
+        - label: はい
+          required: true
 
