@@ -1,8 +1,3 @@
-name: Installation Issue
-description: Issue Titleを入力してください
-title: "BUILD: "
-labels: Issue Title
-
 name: Backofficeコンテンツに関するお知らせ用 Issue Form（リスト入稿なし）
 description: このissueは、教材に関するサイト内お知らせの配信依頼を行うissueです。
 labels:
