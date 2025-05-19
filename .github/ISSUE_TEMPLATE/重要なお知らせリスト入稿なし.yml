@@ -1,1 +1,102 @@
 
+name: Backoffice重要なお知らせ用 Issue Form（リスト入稿なし）
+description: 重要なお知らせを配信したい場合はこちらのフォームを作成してください。
+labels:
+  - issue forms FMT
+body:
+  - type: input
+    id: purpose
+    attributes:
+      label: 目的
+      description: 施策の目的を記載してください。
+      placeholder: 
+    validations:
+      required: false
+
+  - type: input
+    id: stakeholders
+    attributes:
+      label: 関係者
+      description: 関係者の名前や役職などを入力してください。
+      placeholder: 
+    validations:
+      required: false
+
+
+  - type: input
+    id: manuscript
+    attributes:
+      label: Title
+      description: 原稿のタイトルを入力してください。
+      placeholder:
+    validations:
+      required: true
+
+  - type: textarea
+    id: title
+    attributes:
+      label: Body
+      description: 本文を入力してください。
+      placeholder:
+    validations:
+      required: true
+
+  - type: input
+    id: desired_date
+    attributes:
+      label: 送付希望日時
+      description: 送付を希望する日程を入力してください。（※半角数字のみ 例：2025/05/19 00:00）
+      placeholder: 
+    validations:
+      required: true
+        
+  - type: checkboxes
+    id: market
+    attributes:
+      label: Aya Market
+      description: 対象マーケットを選んでください。必ず１つ以上選択してください。
+      options:
+      - label: B2C
+      - label: B2B
+      - label: 全て
+        required: false
+
+  - type: checkboxes
+    id: grade
+    attributes:
+      label: Aya Grades
+      description: 対象学年を選んでください。必ず１つ以上選択してください。
+      options:
+      - label: 高卒生／予備校生（22歳以下）
+      - label: 高校3年生
+      - label: 高校2年生
+      - label: 高校1年生
+      - label: 中学3年生
+      - label: 中学2年生
+      - label: 中学1年生
+      - label: 小学6年生
+      - label: 小学5年生
+      - label: 小学4年生
+      - label: 小学3年生
+      - label: 小学2年生
+      - label: 小学1年生
+        required: false
+
+  - type: checkboxes
+    id: plan
+    attributes:
+      label: Licenses
+      description: >
+        対象の契約プランを選んでください。必ず１つ以上選択してください。
+      options:
+      - label: 無料会員
+        required: true
+      - label: ベーシック(basic)
+        required: true
+      - label: 合格特訓コース(online_coaching)
+        required: true
+      - label: 中学個別指導コース(yui)
+        required: true
+      - label: シン個別
+        required: true
+
