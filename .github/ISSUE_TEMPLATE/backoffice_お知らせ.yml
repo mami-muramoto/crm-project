@@ -52,7 +52,7 @@ body:
   - type: checkboxes
     id: market
     attributes:
-      label: Licenses
+      label: Aya Market
       description: 対象マーケットを選んでください。必ず１つ以上選択してください。
       options:
       - label: B2C
@@ -85,7 +85,7 @@ body:
   - type: checkboxes
     id: plan
     attributes:
-      label: Subscription status
+      label: Licenses
       description: >
         対象の契約プランを選んでください。必ず１つ以上選択してください。
       options:
@@ -98,4 +98,16 @@ body:
       - label: 中学個別指導コース(yui)
         required: true
       - label: シン個別
+        required: true
+
+
+        - type: checkboxes
+    id: market
+    attributes:
+      label: Subscription status
+      description: 必ず１つ以上選択してください。
+      options:
+      - label: paid
+      - label: unpaid
+      - label: 全て
         required: true
