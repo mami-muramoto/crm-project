@@ -62,27 +62,6 @@ body:
         required: false
 
   - type: checkboxes
-    id: grade
-    attributes:
-      label: Aya Grades
-      description: 対象学年を選んでください。必ず１つ以上選択してください。
-      options:
-      - label: 高卒生／予備校生（22歳以下）
-      - label: 高校3年生
-      - label: 高校2年生
-      - label: 高校1年生
-      - label: 中学3年生
-      - label: 中学2年生
-      - label: 中学1年生
-      - label: 小学6年生
-      - label: 小学5年生
-      - label: 小学4年生
-      - label: 小学3年生
-      - label: 小学2年生
-      - label: 小学1年生
-        required: false
-
-  - type: checkboxes
     id: plan
     attributes:
       label: License ids
@@ -113,3 +92,11 @@ body:
     validations:
       required: true
 
+  - type: input
+    id: targetusers
+    attributes:
+      label: Target Users
+      description: リストの格納先ファイルのパスを記入してください
+      placeholder:
+    validations:
+      required: true
