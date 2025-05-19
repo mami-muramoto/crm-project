@@ -1,7 +1,7 @@
 name: Backofficeお知らせ用 Issue Form（リスト入稿なし）
 description: お知らせを配信したい場合はこちらのフォームを作成してください。
 labels:
-  - content
+  - issue forms FMT
 body:
   - type: input
     id: purpose
