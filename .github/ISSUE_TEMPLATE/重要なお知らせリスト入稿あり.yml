@@ -7,21 +7,11 @@ body:
   - type: input
     id: purpose
     attributes:
-      label: 経緯/伝えたたいこと
-      description: 施策の目的を記載してください。
+      label: 経緯/伝えたいこと
+      description: （SlackなどのURLとかでもOKです）
       placeholder: 
     validations:
       required: false
-
-  - type: input
-    id: stakeholders
-    attributes:
-      label: 関係者
-      description: 関係者の名前や役職などを入力してください。
-      placeholder: 
-    validations:
-      required: false
-
 
   - type: input
     id: manuscript
