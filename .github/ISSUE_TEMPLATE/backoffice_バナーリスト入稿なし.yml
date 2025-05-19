@@ -39,6 +39,15 @@ body:
       placeholder:
     validations:
       required: true
+
+  - type: textarea
+    id: title
+    attributes:
+      label: Body
+      description: 本文を入力してください。
+      placeholder:
+    validations:
+      required: true
         
   - type: checkboxes
     id: market
