@@ -48,7 +48,17 @@ body:
       placeholder:
     validations:
       required: true
-        
+
+  - type: input
+    id: startdate
+    attributes:
+      label: End Date
+      description: 
+      placeholder:
+    validations:
+      required: true
+
+    
   - type: checkboxes
     id: market
     attributes:
