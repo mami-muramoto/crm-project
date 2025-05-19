@@ -39,25 +39,6 @@ body:
       placeholder:
     validations:
       required: true
-
-  - type: input
-    id: desired_date
-    attributes:
-      label: Start Date
-      description: 配信を開始する日程を入力してください。（※半角数字のみ 例：2025/05/19 00:00）
-      placeholder: 
-    validations:
-      required: true
-
- - type: input
-    id: desired_date
-    attributes:
-      label: End Date
-      description: 配信を終了する日程を入力してください。（※半角数字のみ 例：2025/05/19 00:00）
-      placeholder: 
-    validations:
-      required: true
-      
         
   - type: checkboxes
     id: market
