@@ -100,10 +100,13 @@ body:
       - label: シン個別
         required: true
 
-領域内でレビューを受けて、掲載が必要と判断した案件ですか？
-※案件レビュー会を通さないで起票ができるissueのため、担当者独断での起票はNG
+
+
   - type: checkboxes
     id: plan
     attributes:
-      label: はい
-      description: 必ず領域内レビューを受けてください
+      label: 領域内でレビューを受けて、掲載が必要と判断した案件ですか？
+      description: ※案件レビュー会を通さないで起票ができるissueのため、担当者独断での起票はNG
+      options:
+      - label: はい
+        required: true
