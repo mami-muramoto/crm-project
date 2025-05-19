@@ -25,30 +25,31 @@ body:
   - type: input
     id: manuscript
     attributes:
-      label: Title
+      label: Name
       description: 原稿のタイトルを入力してください。
       placeholder:
     validations:
       required: true
 
-  - type: textarea
-    id: title
+  - type: input
+    id: startdate
     attributes:
-      label: Body
-      description: 本文を入力してください。
+      label: Start Date
+      description: 配信を開始する日程を入力してください。（※半角数字のみ 例：2025/05/19 00:00）
       placeholder:
     validations:
       required: true
 
   - type: input
-    id: desired_date
+    id: enddate
     attributes:
-      label: 送付希望日時
-      description: 送付を希望する日程を入力してください。（※半角数字のみ 例：2025/05/19 00:00）
-      placeholder: 
+      label: End Date
+      description: 配信を終了する日程を入力してください。（※半角数字のみ 例：2025/05/19 00:00）
+      placeholder:
     validations:
       required: true
-        
+
+    
   - type: checkboxes
     id: market
     attributes:
@@ -84,18 +85,31 @@ body:
   - type: checkboxes
     id: plan
     attributes:
-      label: Licenses
+      label: License ids
       description: >
         対象の契約プランを選んでください。必ず１つ以上選択してください。
       options:
       - label: 無料会員
-        required: true
       - label: ベーシック(basic)
-        required: true
       - label: 合格特訓コース(online_coaching)
-        required: true
       - label: 中学個別指導コース(yui)
-        required: true
       - label: シン個別
-        required: true
+
+  - type: input
+    id: banne_URL
+    attributes:
+      label: バナーURL
+      description: 
+      placeholder:
+    validations:
+      required: true
+
+  - type: input
+    id: file_URL
+    attributes:
+      label: 画像URL
+      description: 
+      placeholder:
+    validations:
+      required: true
 
