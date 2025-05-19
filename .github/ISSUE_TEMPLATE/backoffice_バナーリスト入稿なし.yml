@@ -25,17 +25,8 @@ body:
   - type: input
     id: manuscript
     attributes:
-      label: Title
+      label: Name
       description: 原稿のタイトルを入力してください。
-      placeholder:
-    validations:
-      required: true
-
-  - type: textarea
-    id: title
-    attributes:
-      label: Body
-      description: 本文を入力してください。
       placeholder:
     validations:
       required: true
@@ -44,7 +35,7 @@ body:
     id: startdate
     attributes:
       label: Start Date
-      description: 
+      description: 配信を開始する日程を入力してください。（※半角数字のみ 例：2025/05/19 00:00）
       placeholder:
     validations:
       required: true
@@ -53,7 +44,7 @@ body:
     id: enddate
     attributes:
       label: End Date
-      description: 
+      description: 配信を終了する日程を入力してください。（※半角数字のみ 例：2025/05/19 00:00）
       placeholder:
     validations:
       required: true
