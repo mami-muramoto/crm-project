@@ -81,7 +81,6 @@ body:
       - label: 小学1年生
         required: false
 
-
   - type: checkboxes
     id: plan
     attributes:
@@ -100,7 +99,6 @@ body:
       - label: シン個別
         required: true
 
-
         - type: checkboxes
     id: market
     attributes:
@@ -110,4 +108,4 @@ body:
       - label: paid
       - label: unpaid
       - label: 全て
-        required: true
+        required: false
