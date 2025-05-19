@@ -108,4 +108,3 @@ body:
       - label: paid
       - label: unpaid
       - label: 全て
-        required: false
