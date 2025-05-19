@@ -41,10 +41,10 @@ body:
       required: true
 
   - type: textarea
-    id: title
+    id: startdate
     attributes:
-      label: Body
-      description: 本文を入力してください。
+      label: Start Date
+      description: 
       placeholder:
     validations:
       required: true
