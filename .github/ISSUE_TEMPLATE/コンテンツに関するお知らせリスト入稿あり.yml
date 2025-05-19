@@ -1,1 +1,61 @@
+name: Backofficeコンテンツに関するお知らせ用 Issue Form（リスト入稿あり）
+description: コンテンツに関するお知らせを配信したい場合はこちらのフォームを作成してください。
+labels:
+  - issue forms FMT
+body:
+  - type: input
+    id: purpose
+    attributes:
+      label: 目的
+      description: 施策の目的を記載してください。
+      placeholder: 
+    validations:
+      required: false
+
+  - type: input
+    id: stakeholders
+    attributes:
+      label: 関係者
+      description: 関係者の名前や役職などを入力してください。
+      placeholder: 
+    validations:
+      required: false
+
+
+  - type: input
+    id: manuscript
+    attributes:
+      label: Title
+      description: 原稿のタイトルを入力してください。
+      placeholder:
+    validations:
+      required: true
+
+  - type: textarea
+    id: title
+    attributes:
+      label: Body
+      description: 本文を入力してください。
+      placeholder:
+    validations:
+      required: true
+
+  - type: input
+    id: desired_date
+    attributes:
+      label: 送付希望日時
+      description: 送付を希望する日程を入力してください。（※半角数字のみ 例：2025/05/19 00:00）
+      placeholder: 
+    validations:
+      required: true
+
+  - type: input
+    id: Recipientids
+    attributes:
+      label: Recipient ids
+      description: リスト格納先ファイルのパスを記入してください
+      placeholder: 
+    validations:
+      required: true
+
 
