@@ -94,7 +94,7 @@ body:
   - type: checkboxes
     id: plan
     attributes:
-      label: Licenses
+      label: License ids
       description: >
         対象の契約プランを選んでください。必ず１つ以上選択してください。
       options:
@@ -108,4 +108,22 @@ body:
         required: true
       - label: シン個別
         required: true
+
+  - type: input
+    id: banne_URL
+    attributes:
+      label: バナーURL
+      description: 
+      placeholder:
+    validations:
+      required: true
+
+  - type: input
+    id: file_URL
+    attributes:
+      label: 画像URL
+      description: 
+      placeholder:
+    validations:
+      required: true
 
