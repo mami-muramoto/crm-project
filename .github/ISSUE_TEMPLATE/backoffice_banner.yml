@@ -1,46 +1,121 @@
-name: バナー用issue forms
-description: Make a suggestion to improve the content in an existing article.
+name: Backofficeバナー用 Issue Form（リスト入稿なし）
+description: バナーを配信したい場合はこちらのフォームを作成してください。
 labels:
-  - content
+  - issue forms FMT
 body:
-  - type: markdown
+  - type: input
+    id: purpose
     attributes:
-      value: |
-        **HUBBERS!!** This is the github/docs open source repo. You may want to open an issue in the internal-only github/docs-content repo instead.
-
-        * For questions, ask in [Discussions](https://github.com/github/docs/discussions).
-        * Before you file an issue read the [Contributing guide](https://github.com/github/docs/blob/main/CONTRIBUTING.md).
-        * Check to make sure someone hasn't already opened a similar [issue](https://github.com/github/docs/issues).
-
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: Code of Conduct
-      description: This project has a Code of Conduct that all participants are expected to understand and follow.
-      options:
-        - label: I have read and agree to the GitHub Docs project's [Code of Conduct](https://github.com/github/docs/blob/main/CODE_OF_CONDUCT.md)
-          required: true
-
-  - type: textarea
-    attributes:
-      label: What article on docs.github.com is affected?
-      description: Please link to the article you'd like to see updated.
-    validations:
-      required: true
-
-  - type: textarea
-    attributes:
-      label: What part(s) of the article would you like to see updated?
-      description: |
-        - Give as much detail as you can to help us understand the change you want to see. 
-        - Why should the docs be changed? What use cases does it support? 
-        - What is the expected outcome?
-    validations:
-      required: true
-
-  - type: textarea
-    attributes:
-      label: Additional information
-      description: Add any other context or screenshots about the feature request here.
+      label: 目的
+      description: 施策の目的を記載してください。
+      placeholder: 
     validations:
       required: false
+
+  - type: input
+    id: stakeholders
+    attributes:
+      label: 関係者
+      description: 関係者の名前や役職などを入力してください。
+      placeholder: 
+    validations:
+      required: false
+
+
+  - type: input
+    id: manuscript
+    attributes:
+      label: Name
+      description: 原稿のタイトルを入力してください。
+      placeholder:
+    validations:
+      required: true
+
+  - type: input
+    id: desired_date
+    attributes:
+      label: Start Date
+      description: 配信を開始する日程を入力してください。（※半角数字のみ 例：2025/05/19 00:00）
+      placeholder: 
+    validations:
+      required: true
+
+        - type: input
+    id: desired_date
+    attributes:
+      label: End Date
+      description: 配信を終了する日程を入力してください。（※半角数字のみ 例：2025/05/19 00:00）
+      placeholder: 
+    validations:
+      required: true
+        
+  - type: checkboxes
+    id: market
+    attributes:
+      label: Aya Market
+      description: 対象マーケットを選んでください。必ず１つ以上選択してください。
+      options:
+      - label: B2C
+      - label: B2B
+      - label: 全て
+        required: false
+
+  - type: checkboxes
+    id: grade
+    attributes:
+      label: Aya Grades
+      description: 対象学年を選んでください。必ず１つ以上選択してください。
+      options:
+      - label: 高卒生／予備校生（22歳以下）
+      - label: 高校3年生
+      - label: 高校2年生
+      - label: 高校1年生
+      - label: 中学3年生
+      - label: 中学2年生
+      - label: 中学1年生
+      - label: 小学6年生
+      - label: 小学5年生
+      - label: 小学4年生
+      - label: 小学3年生
+      - label: 小学2年生
+      - label: 小学1年生
+        required: false
+
+  - type: checkboxes
+    id: plan
+    attributes:
+      label: License ids
+      description: >
+        対象の契約プランを選んでください。必ず１つ以上選択してください。
+      options:
+      - label: 無料会員
+        required: true
+      - label: ベーシック(basic)
+        required: true
+      - label: 合格特訓コース(online_coaching)
+        required: true
+      - label: 中学個別指導コース(yui)
+        required: true
+      - label: シン個別
+        required: true
+
+          - type: input
+    id: manuscript
+    attributes:
+      label: 画像フォルダ
+      description: Googleドライブ内フォルダのURLなど
+      placeholder:
+    validations:
+      required: false
+      
+          - type: input
+    id: manuscript
+    attributes:
+      label: 遷移先URL
+      description: バナーURL
+      placeholder:
+    validations:
+      required: false
+
+        
+
