@@ -6,8 +6,8 @@ body:
   - type: input
     id: purpose
     attributes:
-      label: 目的
-      description: 施策の目的を記載してください。
+      label: 経緯/伝えたいこと
+      description: （SlackなどのURLとかでもOKです）
       placeholder: 
     validations:
       required: false
