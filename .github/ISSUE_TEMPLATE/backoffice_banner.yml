@@ -1,4 +1,4 @@
-name: 　Backofficeバナー用 Issue Form（リスト入稿なし）
+name: Backofficeバナー用 Issue Form（リスト入稿なし）
 description: バナーを配信したい場合はこちらのフォームを作成してください。
 labels:
   - issue forms FMT
@@ -21,18 +21,17 @@ body:
     validations:
       required: false
 
-
   - type: input
-    id: manuscript
+    id: manuscript_title
     attributes:
       label: Name
       description: 原稿のタイトルを入力してください。
-      placeholder:
+      placeholder: 
     validations:
       required: true
 
   - type: input
-    id: desired_date
+    id: start_date
     attributes:
       label: Start Date
       description: 配信を開始する日程を入力してください。（※半角数字のみ 例：2025/05/19 00:00）
@@ -40,25 +39,27 @@ body:
     validations:
       required: true
 
- - type: input
-    id: desired_date
+  - type: input
+    id: end_date
     attributes:
       label: End Date
       description: 配信を終了する日程を入力してください。（※半角数字のみ 例：2025/05/19 00:00）
       placeholder: 
     validations:
       required: true
-        
+
   - type: checkboxes
     id: market
     attributes:
       label: Aya Market
       description: 対象マーケットを選んでください。必ず１つ以上選択してください。
       options:
-      - label: B2C
-      - label: B2B
-      - label: 全て
-        required: false
+        - label: B2C
+          value: b2c
+        - label: B2B
+          value: b2b
+        - label: 全て
+          value: all
 
   - type: checkboxes
     id: grade
@@ -66,56 +67,64 @@ body:
       label: Aya Grades
       description: 対象学年を選んでください。必ず１つ以上選択してください。
       options:
-      - label: 高卒生／予備校生（22歳以下）
-      - label: 高校3年生
-      - label: 高校2年生
-      - label: 高校1年生
-      - label: 中学3年生
-      - label: 中学2年生
-      - label: 中学1年生
-      - label: 小学6年生
-      - label: 小学5年生
-      - label: 小学4年生
-      - label: 小学3年生
-      - label: 小学2年生
-      - label: 小学1年生
-        required: false
+        - label: 高卒生／予備校生（22歳以下）
+          value: high_school_grad
+        - label: 高校3年生
+          value: high_school_3
+        - label: 高校2年生
+          value: high_school_2
+        - label: 高校1年生
+          value: high_school_1
+        - label: 中学3年生
+          value: middle_school_3
+        - label: 中学2年生
+          value: middle_school_2
+        - label: 中学1年生
+          value: middle_school_1
+        - label: 小学6年生
+          value: elementary_6
+        - label: 小学5年生
+          value: elementary_5
+        - label: 小学4年生
+          value: elementary_4
+        - label: 小学3年生
+          value: elementary_3
+        - label: 小学2年生
+          value: elementary_2
+        - label: 小学1年生
+          value: elementary_1
 
   - type: checkboxes
     id: plan
     attributes:
       label: License ids
-      description: >
-        対象の契約プランを選んでください。必ず１つ以上選択してください。
+      description: 対象の契約プランを選んでください。必ず１つ以上選択してください。
       options:
-      - label: 無料会員
-        required: true
-      - label: ベーシック(basic)
-        required: true
-      - label: 合格特訓コース(online_coaching)
-        required: true
-      - label: 中学個別指導コース(yui)
-        required: true
-      - label: シン個別
-        required: true
+        - label: 無料会員
+          value: free_member
+        - label: ベーシック(basic)
+          value: basic
+        - label: 合格特訓コース(online_coaching)
+          value: online_coaching
+        - label: 中学個別指導コース(yui)
+          value: yui
+        - label: シン個別
+          value: shin
 
   - type: input
-    id: manuscript
+    id: image_folder
     attributes:
       label: 画像フォルダ
       description: Googleドライブ内フォルダのURLなど
-      placeholder:
+      placeholder: 
     validations:
       required: false
-      
-          - type: input
-    id: manuscript
+
+  - type: input
+    id: transition_url
     attributes:
       label: 遷移先URL
       description: バナーURL
-      placeholder:
+      placeholder: 
     validations:
       required: false
-
-        
-
