@@ -90,13 +90,9 @@ body:
         対象の契約プランを選んでください。必ず１つ以上選択してください。
       options:
       - label: 無料会員
-        required: true
       - label: ベーシック(basic)
-        required: true
       - label: 合格特訓コース(online_coaching)
         required: true
-      - label: 中学個別指導コース(yui)
-        required: true
       - label: シン個別
-        required: true
+        required: false
 
