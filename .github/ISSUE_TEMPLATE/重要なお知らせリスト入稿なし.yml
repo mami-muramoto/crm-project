@@ -92,6 +92,7 @@ body:
       - label: 無料会員
       - label: ベーシック(basic)
       - label: 合格特訓コース(online_coaching)
+      - label: 中学個別指導コース(yui)
       - label: シン個別
         required: false
 
