@@ -1,0 +1,41 @@
+name: 配信依頼フォーム
+description: ニュースレターや配信コンテンツの配信依頼を行うためのフォームです。
+title: "[配信依頼] {タイトル}"
+labels: [配信依頼]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        以下の項目を記入してください。配信日をカンマ区切りで複数指定することも可能です。
+
+  - type: input
+    id: タイトル
+    attributes:
+      label: "配信タイトル"
+      description: "配信のタイトルを入力してください。"
+      placeholder: "例: ニュースレター2023年11月号"
+      required: true
+
+  - type: textarea
+    id: 内容
+    attributes:
+      label: "配信内容"
+      description: "配信する内容を記入してください。"
+      placeholder: "例: これはニュースレターの内容です。"
+      required: true
+
+  - type: input
+    id: 配信日
+    attributes:
+      label: "配信日"
+      description: "配信日をカンマ区切りで入力してください。"
+      placeholder: "例: 2023-11-01, 2023-11-05"
+      required: true
+
+  - type: checkbox
+    id: 確認
+    attributes:
+      label: "確認"
+      description: "すべての情報が正しいことを確認しました。"
+      required: true
