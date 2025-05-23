@@ -1,0 +1,32 @@
+name: Create Child Issues
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  create_child_issues:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check if the issue is a parent issue
+        if: contains(github.event.issue.title, '[Parent]') # 親Issueのタイトルに特定のタグを含める
+        run: |
+          echo "Creating child issues..."
+      
+      - name: Create Child Issue 1
+        if: contains(github.event.issue.title, '[Parent]')
+        uses: peter-evans/create-issue-from-file@v2
+        with:
+          title: Child Issue 1
+          body: This is the first child issue.
+          labels: child
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Create Child Issue 2
+        if: contains(github.event.issue.title, '[Parent]')
+        uses: peter-evans/create-issue-from-file@v2
+        with:
+          title: Child Issue 2
+          body: This is the second child issue.
+          labels: child
+          token: ${{ secrets.GITHUB_TOKEN }}
