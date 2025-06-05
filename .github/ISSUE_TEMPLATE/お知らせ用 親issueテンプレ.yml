@@ -92,9 +92,14 @@ body:
       - label: all
         required: false
 
-##【データ抽出が必要な場合のみ】以下を埋めてください
-お知らせ/ayaWebバナー/aya帯ヘッダーで学年/toCtoB/有料無料 以外のだし分けする際も、データ抽出が必要です。
-※詳細はk12-CRMマニュアルをご確認ください。
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **【データ抽出が必要な場合のみ】以下を埋めてください
+
+        * お知らせ/ayaWebバナー/aya帯ヘッダーで学年/toCtoB/有料無料 以外のだし分けする際も、データ抽出が必要です。
+        * ※詳細はk12-CRMマニュアルをご確認ください。
 
   - type: checkboxes
     id: extraction_reason
