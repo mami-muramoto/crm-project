@@ -22,7 +22,7 @@ body:
       description: 配信チャネルを記載してください
       placeholder: 
     validations:
-      required: false
+      required: true
       
   - type: input
     id: purpose
