@@ -99,77 +99,77 @@ name: データ抽出リクエスト
 description: |
   ## 【データ抽出が必要な場合のみ】以下を埋めてください
   お知らせ/ayaWebバナー/aya帯ヘッダーで学年/toCtoB/有料無料 以外のだし分けする際も、データ抽出が必要です。
-  ※詳細は[k12-CRMマニュアル]ご確認ください。
+  ※詳細は[k12-CRMマニュアル](https://docs.google.com/presentation/d/191jyNn0I-Qjl48CXsupLBl1heX4FDyke8-WYeyW_0Zg/edit#slide=id.g343980a66ee_0_86)をご確認ください。
 
-  - type: checkbox
-    id: extraction_reason
-    label: データ抽出が必要な理由
-    options:
-      - "「スタディサプリからのメールマガジンを受け取る」が不許可の会員、B2B2C会員(高校の団体会員)、退会者など通常CRMの対象でない会員にも配信したい場合"
-      - "LIVEの事前登録者などスタサプ会員でない人に配信したい場合"
-      - "URLパラメーターやキャンペーンコードなど、ひとりひとり異なる情報を含むメールを送りたい場合"
-      - "学習者IDやサポートwebIDで、回答したユーザーの特定が必要な場合（例：アンケートに回答したユーザーに謝礼を送る 等）"
-      - "例外的な時間帯に配信したい場合"
-      - "施策後にデータ部に効果測定を依頼する場合"
-      - "Marketoでは指定できないセグメントに送付したい場合"
-      - "（お知らせ/ayaWebバナー/aya帯ヘッダーで配信する場合）学年/toCtoB/有料無料 以外のだし分けする"
+- type: checkbox
+  id: extraction_reason
+  label: データ抽出が必要な理由
+  options:
+    - "「スタディサプリからのメールマガジンを受け取る」が不許可の会員、B2B2C会員(高校の団体会員)、退会者など通常CRMの対象でない会員にも配信したい場合"
+    - "LIVEの事前登録者などスタサプ会員でない人に配信したい場合"
+    - "URLパラメーターやキャンペーンコードなど、ひとりひとり異なる情報を含むメールを送りたい場合"
+    - "学習者IDやサポートwebIDで、回答したユーザーの特定が必要な場合（例：アンケートに回答したユーザーに謝礼を送る 等）"
+    - "例外的な時間帯に配信したい場合"
+    - "施策後にデータ部に効果測定を依頼する場合"
+    - "Marketoでは指定できないセグメントに送付したい場合"
+    - "（お知らせ/ayaWebバナー/aya帯ヘッダーで配信する場合）学年/toCtoB/有料無料 以外のだし分けする"
 
-  - type: checkbox
-    id: extraction_method
-    label: データ抽出方法
-    options:
-      - "Sugar"
-      - "データGに依頼"
+- type: checkbox
+  id: extraction_method
+  label: データ抽出方法
+  options:
+    - "Sugar"
+    - "データGに依頼"
 
-  - type: textarea
-    id: extraction_conditions
-    label: 抽出条件を記載ください
-    placeholder: "例：toC、高1～高3、合格特訓契約者のみ"
+- type: textarea
+  id: extraction_conditions
+  label: 抽出条件を記載ください
+  placeholder: "例：toC、高1～高3、合格特訓契約者のみ"
 
-  - type: file
-    id: extraction_capture
-    label: 抽出画面のキャプチャを貼る
+- type: file
+  id: extraction_capture
+  label: 抽出画面のキャプチャを貼る
 
-  - type: checkbox
-    id: w_check
-    label: 対象者の条件があっているか、領域内でWチェックする
-    options:
-      - "Wチェックが完了したら✓する"
+- type: checkbox
+  id: w_check
+  label: 対象者の条件があっているか、領域内でWチェックする
+  options:
+    - "Wチェックが完了したら✓する"
 
-  - type: text
-    id: extraction_issue
-    label: 抽出issue
-    placeholder: "XXX"
+- type: text
+  id: extraction_issue
+  label: 抽出issue
+  placeholder: "XXX"
 
-  - type: text
-    id: delivery_date
-    label: 配信リストの納品日
-    placeholder: "YYYY/MM/DD 00:00頃"
+- type: text
+  id: delivery_date
+  label: 配信リストの納品日
+  placeholder: "YYYY/MM/DD 00:00頃"
 
-  - type: checkbox
-    id: user_status
-    label: 抽出時のユーザー状態
-    options:
-      - "CRM通常対象者"
-      - "イレギュラー対象者含む"
+- type: checkbox
+  id: user_status
+  label: 抽出時のユーザー状態
+  options:
+    - "CRM通常対象者"
+    - "イレギュラー対象者含む"
 
-  - type: checkbox
-    id: measurement_needed
-    label: 効果計測
-    options:
-      - "intr有り"
-      - "intr無し"
+- type: checkbox
+  id: measurement_needed
+  label: 効果計測
+  options:
+    - "intr有り"
+    - "intr無し"
 
-  - type: checkbox
-    id: standard_process
-    label: 標準プロセスチェック
-    options:
-      - "標プロ通過済"
-      - "標プロ不要"
+- type: checkbox
+  id: standard_process
+  label: 標準プロセスチェック
+  options:
+    - "標プロ通過済"
+    - "標プロ不要"
 
-  - type: checkbox
-    id: quality_process
-    label: 表示品質プロセスチェック（24/6月より運用開始）
-    options:
-      - "表示品質チェックセルフチェック済"
-      - "表示品質チェックWチェック済"
+- type: checkbox
+  id: quality_process
+  label: 表示品質プロセスチェック（24/6月より運用開始）
+  options:
+    - "表示品質チェックセルフチェック済"
+    - "表示品質チェックWチェック済"
