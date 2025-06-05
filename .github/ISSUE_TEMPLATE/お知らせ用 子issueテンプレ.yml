@@ -79,3 +79,11 @@ body:
     validations:
       required: false
 
+  - type: input
+    id: recipient_ids
+    attributes:
+      label: 配信リスト自体のURL
+      description: 配信リスト自体のURLをこちらに入力してください。
+      placeholder: URLをここに入力
+    validations:
+      required: false
