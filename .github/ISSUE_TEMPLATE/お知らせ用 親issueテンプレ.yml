@@ -1,8 +1,29 @@
-name: Backofficeお知らせ用 Issue Form（リスト入稿なし）
+name: Backofficeお知らせ用 親issueテンプレ.yml
 description: お知らせを配信したい場合はこちらのフォームを作成してください。
 labels:
   - issue forms FMT
 body:
+
+  - type: checkboxes
+    id: 
+    attributes:
+      label: リスト入稿有無
+      description: >
+        対象の契約プランを選んでください。必ず１つ以上選択してください。
+      options:
+      - label: リスト入稿あり
+      - label: リスト入稿なし
+        required: true
+      
+  - type: input
+    id: purpose
+    attributes:
+      label: 配信チャネル
+      description: 配信チャネルを記載してください
+      placeholder: 
+    validations:
+      required: false
+      
   - type: input
     id: purpose
     attributes:
@@ -88,10 +109,9 @@ body:
       description: >
         対象の契約プランを選んでください。必ず１つ以上選択してください。
       options:
-      - label: 無料会員
-      - label: ベーシック(basic)
-      - label: 合格特訓コース(online_coaching)
-      - label: 中学個別指導コース(yui)
-      - label: シン個別
+      - label: paid
+      - label: unpaid
+      - label: all
+
         required: false
 
