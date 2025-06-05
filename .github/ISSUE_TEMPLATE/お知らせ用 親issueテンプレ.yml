@@ -1,4 +1,4 @@
-name: Backofficeお知らせ用 親issueテンプレ.yml
+name: お知らせ
 description: お知らせを配信したい場合はこちらのフォームを作成してください。
 labels:
   - issue forms FMT
