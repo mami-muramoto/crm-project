@@ -146,7 +146,7 @@ body:
       description: 対象者の条件があっているか、領域内でWチェックを行いましたか？
       options:
       - label: Wチェックが完了したら✓する
-      required: false
+        required: false
 
   - type: input
     id: extraction_issue
@@ -155,7 +155,7 @@ body:
       description: 抽出に関連するissueの情報を記入してください。
       placeholder: XXX
     validations:
-      required: false
+        required: false
 
   - type: input
     id: delivery_date
@@ -164,7 +164,7 @@ body:
       description: 配信リストの納品日を入力してください。（例：YYYY/MM/DD 00:00頃）
       placeholder: YYYY/MM/DD 00:00頃
     validations:
-      required: true
+        required: true
 
   - type: checkboxes
     id: user_status
@@ -174,7 +174,7 @@ body:
       options:
       - label: CRM通常対象者
       - label: イレギュラー対象者含む
-      required: true
+        required: true
 
   - type: checkboxes
     id: measurement_needed
@@ -184,7 +184,7 @@ body:
       options:
       - label: intr有り
       - label: intr無し
-      required: false
+        required: false
 
   - type: checkboxes
     id: standard_process
@@ -194,7 +194,7 @@ body:
       options:
       - label: 標プロ通過済
       - label: 標プロ不要
-      required: false
+        required: false
 
   - type: checkboxes
     id: quality_process
@@ -204,4 +204,4 @@ body:
       options:
       - label: 表示品質チェックセルフチェック済
       - label: 表示品質チェックWチェック済
-      required: false
+        required: false
