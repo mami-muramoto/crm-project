@@ -130,9 +130,11 @@ body:
     validations:
       required: false
 
-  - type: file
-    id: extraction_capture
+  - type: input
+    id: extraction_capture_url
     attributes:
-      label: 抽出画面のキャプチャを貼る
-      description: 抽出画面のキャプチャをアップロードしてください。
-
+      label: 抽出画面のキャプチャURL
+      description: 抽出画面のキャプチャのURLを入力してください。
+      placeholder: URLをここに入力
+    validations:
+      required: false
