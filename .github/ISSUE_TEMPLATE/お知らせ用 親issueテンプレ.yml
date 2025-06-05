@@ -66,7 +66,7 @@ body:
     id: aya_grade_ids
     attributes:
       label: Aya Grades
-      description: 対象学年を選んでください。必ず１つ以上選択してください。
+      description: 対象学年を選んでください。※配信日時点の学年を指定してください
       options:
       - label: 高卒生／予備校生（22歳以下）
       - label: 高校3年生
