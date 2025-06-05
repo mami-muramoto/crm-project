@@ -55,7 +55,7 @@ body:
     id: aya_market
     attributes:
       label: Aya Market
-      description: 対象マーケットを選んでください。必ず１つ以上選択してください。
+      description: 対象マーケットを選んでください。
       options:
       - label: B2C
       - label: B2B
@@ -88,7 +88,7 @@ body:
     attributes:
       label: Licenses
       description: >
-        対象の契約プランを選んでください。必ず１つ以上選択してください。
+        対象の契約プランを選んでください。
       options:
       - label: paid
       - label: unpaid
