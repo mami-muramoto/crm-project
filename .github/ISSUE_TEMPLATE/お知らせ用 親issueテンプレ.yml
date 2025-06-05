@@ -1,7 +1,5 @@
 name: お知らせ
 description: お知らせを配信したい場合はこちらのフォームを作成してください。
-labels:
-  - issue forms FMT
 body:
 
   - type: checkboxes
