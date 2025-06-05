@@ -47,18 +47,7 @@ body:
       description: 送付を希望する日程を入力してください。（※半角数字のみ 例：2025/05/19 00:00）
       placeholder: 
     validations:
-      required: true
-
-  - type: checkboxes
-    id: licenses_ids
-    attributes:
-      label: Licenses
-      description: toC　▶ “aya_toc_basic (JP)“	toB　▶ “aya (JP)“	 両方　▶ “aya (JP)“ , “aya_toc_basic (JP)“ 	※基本は「“aya (JP)“ , “aya_toc_basic (JP)“ 」の2種のみを利用				
-      options:
-      - label: aya_toc_basic (JP)
-      - label: aya (JP)
-      - label: aya (JP), “aya_toc_basic (JP)
-        required: false		
+      required: true	
         
   - type: checkboxes
     id: aya_market
