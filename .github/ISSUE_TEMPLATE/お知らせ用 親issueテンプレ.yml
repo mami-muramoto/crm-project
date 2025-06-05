@@ -5,11 +5,11 @@ labels:
 body:
 
   - type: checkboxes
-    id: 
+    id: user_id
     attributes:
       label: リスト入稿有無
       description: >
-        対象の契約プランを選んでください。必ず１つ以上選択してください。
+        リスト入稿の有無を選択してください
       options:
       - label: リスト入稿あり
       - label: リスト入稿なし
