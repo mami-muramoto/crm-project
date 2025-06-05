@@ -92,13 +92,6 @@ body:
       - label: all
         required: false
 
-name: データ抽出リクエスト
-description: |
-  データ抽出が必要な場合は、このフォームを使用してください。
-labels:
-  - issue forms FMT
-body:
-
   - type: checkboxes
     id: extraction_reason
     attributes:
