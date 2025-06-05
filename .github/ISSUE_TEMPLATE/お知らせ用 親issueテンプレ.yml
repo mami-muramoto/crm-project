@@ -16,7 +16,7 @@ body:
         required: true
       
   - type: input
-    id: purpose
+    id: channel_name
     attributes:
       label: 配信チャネル
       description: 配信チャネルを記載してください
