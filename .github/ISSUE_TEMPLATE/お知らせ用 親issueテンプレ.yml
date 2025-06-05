@@ -128,4 +128,11 @@ body:
       description: 具体的な抽出条件を記入してください。例：toC、高1～高3、合格特訓契約者のみ
       placeholder: 
     validations:
-      required: true
+      required: false
+
+  - type: file
+    id: extraction_capture
+    attributes:
+      label: 抽出画面のキャプチャを貼る
+      description: 抽出画面のキャプチャをアップロードしてください。
+
