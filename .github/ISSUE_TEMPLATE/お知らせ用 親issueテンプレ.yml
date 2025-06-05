@@ -120,12 +120,3 @@ body:
       - label: Sugar
       - label: データGに依頼
         required: false
-
- - type: input
-    id: extraction_conditions
-    attributes:
-      label: 抽出条件を記載してください
-      description: 具体的な抽出条件を記入してください。例：toC、高1～高3、合格特訓契約者のみ
-      placeholder: 
-    validations:
-      required: false
