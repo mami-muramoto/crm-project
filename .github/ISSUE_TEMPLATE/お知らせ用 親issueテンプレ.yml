@@ -92,6 +92,10 @@ body:
       - label: all
         required: false
 
+##【データ抽出が必要な場合のみ】以下を埋めてください
+お知らせ/ayaWebバナー/aya帯ヘッダーで学年/toCtoB/有料無料 以外のだし分けする際も、データ抽出が必要です。
+※詳細はk12-CRMマニュアルをご確認ください。
+
   - type: checkboxes
     id: extraction_reason
     attributes:
@@ -162,7 +166,7 @@ body:
       description: 配信リストの納品日を入力してください。（例：YYYY/MM/DD 00:00頃）
       placeholder: YYYY/MM/DD 00:00頃
     validations:
-        required: true
+        required: false
 
   - type: checkboxes
     id: user_status
