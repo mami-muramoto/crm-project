@@ -91,7 +91,37 @@ body:
       - label: unpaid
       - label: all
         required: false
+        
+  - type: checkboxes
+    id: measurement_needed
+    attributes:
+      label: 効果計測が必要か
+      description: 配信後、効果計測が必要な場合は選択してください。
+      options:
+      - label: intr有り
+      - label: intr無し
+        required: false
 
+  - type: checkboxes
+    id: standard_process
+    attributes:
+      label: 標準プロセスチェック
+      description: インシデント防止のため、標準プロセスが必要な案件は選択してください。
+      options:
+      - label: 標プロ通過済
+      - label: 標プロ不要
+        required: false
+
+  - type: checkboxes
+    id: quality_process
+    attributes:
+      label: 表示品質プロセスチェック
+      description: 表示品質チェックが必要かどうかを選択してください。
+      options:
+      - label: 表示品質チェックセルフチェック済
+      - label: 表示品質チェックWチェック済
+        required: false
+        
   - type: checkboxes
     id: extraction_reason
     attributes:
@@ -172,34 +202,4 @@ body:
       options:
       - label: CRM通常対象者
       - label: イレギュラー対象者含む
-        required: false
-
-  - type: checkboxes
-    id: measurement_needed
-    attributes:
-      label: 効果計測が必要か
-      description: 配信後、効果計測が必要な場合は選択してください。
-      options:
-      - label: intr有り
-      - label: intr無し
-        required: false
-
-  - type: checkboxes
-    id: standard_process
-    attributes:
-      label: 標準プロセスチェック
-      description: インシデント防止のため、標準プロセスが必要な案件は選択してください。
-      options:
-      - label: 標プロ通過済
-      - label: 標プロ不要
-        required: false
-
-  - type: checkboxes
-    id: quality_process
-    attributes:
-      label: 表示品質プロセスチェック
-      description: 表示品質チェックが必要かどうかを選択してください。
-      options:
-      - label: 表示品質チェックセルフチェック済
-      - label: 表示品質チェックWチェック済
         required: false
