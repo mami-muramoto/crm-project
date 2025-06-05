@@ -121,11 +121,11 @@ body:
       - label: データGに依頼
         required: false
 
- - type: input
+  - type: input
     id: extraction_conditions
     attributes:
       label: 抽出条件を記載してください
-      description: 例：toC、高1～高3、合格特訓契約者のみ
-      placeholder: 
+      description: 具体的な抽出条件を記入してください。
+      placeholder: 例：toC、高1～高3、合格特訓契約者のみ
     validations:
-      required: false
+      required: true
