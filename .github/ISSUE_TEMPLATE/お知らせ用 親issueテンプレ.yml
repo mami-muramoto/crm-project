@@ -109,7 +109,7 @@ body:
       - label: 施策後にデータ部に効果測定を依頼する場合
       - label: Marketoでは指定できないセグメントに送付したい場合
       - label: （お知らせ/ayaWebバナー/aya帯ヘッダーで配信する場合）学年/toCtoB/有料無料 以外のだし分けする
-        required: true
+        required: false
 
   - type: checkboxes
     id: extraction_method
@@ -119,4 +119,14 @@ body:
       options:
       - label: Sugar
       - label: データGに依頼
+        required: false
+
+ - type: input
+    id: extraction_conditions
+    attributes:
+      label: 抽出条件を記載してください
+      description: 具体的な抽出条件を記入してください。
+      placeholder: 例：toC、高1～高3、合格特訓契約者のみ
+    validations:
         required: true
+
