@@ -82,9 +82,9 @@ body:
         required: false
 
   - type: checkboxes
-    id: license_ids
+    id: subscription_status
     attributes:
-      label: Licenses
+      label: Subscription_status
       description: 対象の契約プランを選んでください。
       options:
       - label: paid
