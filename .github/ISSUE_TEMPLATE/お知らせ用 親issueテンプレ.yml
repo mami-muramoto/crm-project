@@ -53,11 +53,7 @@ body:
     id: licenses_ids
     attributes:
       label: Licenses
-      description: 
-      toC　▶ “aya_toc_basic (JP)“				
-      toB　▶ “aya (JP)“				
-      両方　▶ “aya (JP)“ , “aya_toc_basic (JP)“ 				
-      ※基本は「“aya (JP)“ , “aya_toc_basic (JP)“ 」の2種のみを利用				
+      description: toC　▶ “aya_toc_basic (JP)“	toB　▶ “aya (JP)“	 両方　▶ “aya (JP)“ , “aya_toc_basic (JP)“ 	※基本は「“aya (JP)“ , “aya_toc_basic (JP)“ 」の2種のみを利用				
       options:
       - label: aya_toc_basic (JP)
       - label: aya (JP)
