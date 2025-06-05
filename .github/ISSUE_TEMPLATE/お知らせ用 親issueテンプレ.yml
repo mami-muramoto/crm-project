@@ -84,7 +84,7 @@ body:
   - type: checkboxes
     id: subscription_status
     attributes:
-      label: Subscription_status
+      label: 対象契約プラン
       description: 対象の契約プランを選んでください。
       options:
       - label: paid
