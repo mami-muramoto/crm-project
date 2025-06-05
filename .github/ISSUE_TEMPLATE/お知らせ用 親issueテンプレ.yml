@@ -174,7 +174,7 @@ body:
       options:
       - label: CRM通常対象者
       - label: イレギュラー対象者含む
-        required: true
+        required: false
 
   - type: checkboxes
     id: measurement_needed
