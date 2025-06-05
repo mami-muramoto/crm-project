@@ -42,25 +42,6 @@ body:
     validations:
       required: false
 
-
-  - type: input
-    id: manuscript
-    attributes:
-      label: Title
-      description: 原稿のタイトルを入力してください。
-      placeholder:
-    validations:
-      required: true
-
-  - type: textarea
-    id: title
-    attributes:
-      label: Body
-      description: 本文を入力してください。
-      placeholder:
-    validations:
-      required: true
-
   - type: input
     id: desired_date
     attributes:
@@ -71,7 +52,7 @@ body:
       required: true
         
   - type: checkboxes
-    id: market
+    id: aya_market
     attributes:
       label: Aya Market
       description: 対象マーケットを選んでください。必ず１つ以上選択してください。
@@ -82,7 +63,7 @@ body:
         required: false
 
   - type: checkboxes
-    id: grade
+    id: aya_grade_ids
     attributes:
       label: Aya Grades
       description: 対象学年を選んでください。必ず１つ以上選択してください。
@@ -103,7 +84,7 @@ body:
         required: false
 
   - type: checkboxes
-    id: plan
+    id: license_ids
     attributes:
       label: Licenses
       description: >
@@ -112,6 +93,5 @@ body:
       - label: paid
       - label: unpaid
       - label: all
-
         required: false
 
