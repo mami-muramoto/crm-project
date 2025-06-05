@@ -11,7 +11,7 @@ body:
       options:
       - label: リスト入稿あり
       - label: リスト入稿なし
-        required: true
+        required: false
       
   - type: input
     id: channel_name
